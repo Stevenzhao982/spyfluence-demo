@@ -1,0 +1,1 @@
+$(function(){$("#product-item-images").on("click","a",function(i){i.preventDefault();var e=$("#product-item-images").find("a");window.blueimpGallery(e,{container:"#product-item-lightbox",carousel:!0,hidePageScrollbars:!0,disableScroll:!0,index:this})})});

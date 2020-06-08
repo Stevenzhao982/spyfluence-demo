@@ -1,0 +1,30 @@
+<% content_for :styles do %>
+    <%= stylesheet_link_tag 'pages/scrape.css', media: 'all' %>
+<% end %>
+
+<div id="page-body" class="container px-0">
+    <h2 class="text-center font-weight-bolder pt-5">
+        PAYMENT HISTORY
+    </h2>
+    <br>
+    <table class='table table-condensed table-hover' style="text-align: center">
+        <thead>
+            <tr>
+                <th> Job ID </th>
+                <th> Account </th>
+                <th> Mode </th>
+                <th> Price (USD) </th>
+                <th> Date </th>
+            </tr>
+        </thead>
+
+        <tbody id='jobs'>
+            <%= render partial: "jobs/job", collection: @jobs %>
+        </tbody>
+    </table>
+    <br>
+    <div class="container pagination justify-content-center" >
+        <%= paginate @jobs %>
+    </div>
+    <br>
+</div>

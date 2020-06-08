@@ -1,0 +1,34 @@
+<% content_for :styles do %>
+    <%= stylesheet_link_tag 'pages/campaigns.css', media: 'all' %>
+<% end %>
+
+<div id="page-body" class="container px-0">
+    <h2 class="text-center font-weight-bolder pt-5">
+        MY CAMPAIGNS
+    </h2>
+
+    <table class='table table-condensed table-hover'>
+        <thead>
+            <tr>
+              <th> IG Profile </th>
+              <th> Status </th>
+              <th> Report Type </th>
+              <th> # Profile in Report </th>
+              <th> Date Report Generated </th>
+              <th> View Results </th>
+              <th> Download Results </th>
+            </tr>
+        </thead>
+
+        <tbody id='jobs'>
+            <%= render partial: "jobs/campaign", collection: @jobs %>
+        </tbody>
+    </table>
+    <div class="container pagination justify-content-center" >
+      <%= paginate @jobs %>
+    </div>
+    <br>
+    <div>
+      <a href="/scrape" class="btn btn-primary btn-block" style="margin:auto; width:30%">New Campaign</a>
+    </div>
+</div>

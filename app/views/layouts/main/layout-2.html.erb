@@ -1,0 +1,31 @@
+<% content_for :signed_in_content do %>
+  <!-- Layout wrapper -->
+  <!-- <div class="layout-wrapper layout-1 layout-without-sidenav"> -->
+  <div class="layout-wrapper layout-2">
+    <div class="layout-inner">
+      <!-- Layout sidenav -->
+      <%= render "layouts/partials/layout-sidenav" %>
+
+      <!-- Layout container -->
+      <div class="layout-container">
+
+        <!-- Layout content -->
+        <div class="layout-content">
+
+          <!-- Content -->
+          <div class="container-fluid flex-grow-1 container-p-y">
+            <%= yield %>
+          </div>
+          <!-- / Content -->
+        </div>
+        <!-- Layout content -->
+  
+      </div>
+      <!-- / Layout container -->
+
+    </div>
+  </div>
+  <!-- / Layout wrapper -->
+<% end %>
+<%= render template: "layouts/application" %>
+

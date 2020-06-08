@@ -1,0 +1,1 @@
+$(function(){dragula(Array.prototype.slice.call(document.querySelectorAll(".project-task-list")),{moves:function(t,r,o){return o.classList.contains("project-task-handle")}}),"rtl"===$("html").attr("dir")&&$(".project-task-actions .dropdown-menu, .project-priority .dropdown-menu").removeClass("dropdown-menu-right")});

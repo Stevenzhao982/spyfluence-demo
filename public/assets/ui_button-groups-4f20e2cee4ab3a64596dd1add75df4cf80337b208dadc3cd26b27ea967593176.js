@@ -1,0 +1,1 @@
+$(function(){"rtl"===$("html").attr("dir")&&($("#nesting-button-group-demo .dropdown-menu").addClass("dropdown-menu-right"),$("#vertical-button-group-demo .dropdown-menu").addClass("dropdown-menu-right"))});

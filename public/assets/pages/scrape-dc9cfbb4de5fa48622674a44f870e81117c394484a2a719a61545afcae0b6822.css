@@ -1,0 +1,27 @@
+/* line 1, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/pages/scrape.scss */
+.form-control-borderless {
+  border: none;
+}
+
+/* line 5, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/pages/scrape.scss */
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 11, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/pages/scrape.scss */
+.hide {
+  display: none;
+}
+
+/* line 15, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/pages/scrape.scss */
+.show {
+  display: block;
+}
+
+/* line 19, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/pages/scrape.scss */
+.caption {
+  color: #219dde;
+}

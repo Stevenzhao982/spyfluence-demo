@@ -1,0 +1,1 @@
+$(function(){dragula(Array.prototype.slice.call(document.querySelectorAll(".kanban-box"))),"rtl"===$("html").attr("dir")&&$(".kanban-board-actions .dropdown-menu").removeClass("dropdown-menu-right")});

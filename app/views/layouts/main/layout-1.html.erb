@@ -1,0 +1,25 @@
+<% content_for :signed_out_content do %>
+  <!-- Layout wrapper -->
+  <!-- <div class="layout-wrapper layout-1 layout-without-sidenav"> -->
+  <div class="layout-wrapper layout-2">
+    <div class="layout-inner">
+      <!-- Layout container -->
+      <div class="layout-container">
+
+        <!-- Layout content -->
+        <div class="layout-content">
+          <!-- Content -->
+
+            <%= yield %>
+         
+          <!-- / Content -->
+        </div>
+    
+        <!-- Layout content -->
+      </div>
+      <!-- / Layout container -->
+    </div>
+  </div>
+  <!-- / Layout wrapper -->
+<% end %>
+<%= render template: "layouts/application" %>

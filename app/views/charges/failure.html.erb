@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Error</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=opensans:500);
+    body{
+      background: #37d2dd;
+      color:#fff;
+      font-family: 'Open Sans', sans-serif;
+      max-height:700px;
+      overflow: hidden;
+    }
+    .c{
+      text-align: center;
+      display: block;
+      position: relative;
+      width:80%;
+      margin:100px auto;
+    }
+    ._failure{
+      font-size: 220px;
+      position: relative;
+      display: inline-block;
+      z-index: 2;
+      height: 200px;
+      letter-spacing: 15px;
+    }
+    ._1{
+      text-align:center;
+      display:block;
+      position:relative;
+      letter-spacing: 5px;
+      font-size: 2.0em;
+      line-height: 100%;
+    }
+    ._2{
+      text-align:center;
+      display:block;
+      position: relative;
+      font-size: 20px;
+    }
+    .text{
+      font-size: 70px;
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      margin: 19px 0px 0px 0px;
+      /* top: 256.301px; */
+      z-index: 3;
+      width: 100%;
+      line-height: 1.2em;
+      display: inline-block;
+    }
+
+    .btn{
+      background-color: rgb( 255, 255, 255 );
+      position: relative;
+      display: inline-block;
+      width: 358px;
+      padding: 5px;
+      z-index: 5;
+      font-size: 25px;
+      margin:0 auto;
+      color:#37d2dd;
+      text-decoration: none;
+      margin-right: 10px
+    }
+    .right{
+      float:right;
+      width:60%;
+    }
+
+    hr{
+      padding: 0;
+      border: none;
+      border-top: 5px solid #fff;
+      color: #fff;
+      text-align: center;
+      margin: 0px auto;
+      width: 420px;
+      height:10px;
+      z-index: -10;
+    }
+
+    hr:after {
+      content: "\2022";
+      display: inline-block;
+      position: relative;
+      top: -0.75em;
+      font-size: 2em;
+      padding: 0 0.2em;
+      background: #37d2dd;
+    }
+
+    a:hover {
+      background: #37d2dd;
+      color: rgb(255, 255, 255);
+      border-style: solid;
+    }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class='c'>
+      <div class='_failure'>PAYMENT ERROR</div>
+      <br/>
+      <br/>
+      <div class='_1'>Unable to charge card. Please try again later or contact us if this issue persists.</div>
+      <br/>
+      <br/>
+      <a class='btn' href='/'>DASHBOARD</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<% content_for :styles do %>
+    <%= stylesheet_link_tag 'pages/profiles.css', media: 'all' %>
+<% end %>
+
+<div id="page-body" class="container px-0" style="margin-top:5%">
+    <h1 class="text-center font-weight-bolder pt-5">
+        DEMO REPORT
+    </h1>
+    <div style="text-align:center">
+        <h4>Instagramer: <b>kyliejenner</b></h4>
+        <h4>Mode: <b>Following</b></h4>
+        <p style="margin-bottom:0 !important">* All paid reports will include the ability to download results in CSV file format.</p>
+        <p>Report tables will also be more concise with much of the information here being present in a 'detail view' per profile.</p>
+    </div>
+
+    <table class='table table-condensed table-hover table-responsive' style="text-align: center">
+        <thead>
+            <tr>
+                <th> Profile </th>
+                <th> Account </th>
+                <th> Description </th>
+                <th> Followers </th>
+                <th> Following </th>
+                <th> Followers to Following </th>
+                <th> Recent Average Post Likes </th>
+                <th> Recent Average Post Comments </th>
+                <th> Recent Engagement Rate </th>
+                <th> Phone Number </th>	
+                <th> Contact Info </th>
+                <th> Relevant Links </th>
+                <th> Recently Used Hash Tags </th>
+            </tr>
+        </thead>
+
+        <tbody id='profiles'>
+            <%= render partial: "home/demo", collection: @profiles %>
+        </tbody>
+    </table>
+    <div class="container pagination justify-content-center" >
+      <%= paginate @profiles %>
+    </div>
+    <br>
+</div>

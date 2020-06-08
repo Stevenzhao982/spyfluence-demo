@@ -1,0 +1,74 @@
+
+<!-- Layout sidenav -->
+<div id="layout-sidenav" class="<% if local_assigns[:horizontal] == true %>layout-sidenav-horizontal sidenav-horizontal container-p-x flex-grow-0<% else %>layout-sidenav sidenav-vertical<% end %> sidenav bg-sidenav-theme">
+  <% if local_assigns[:horizontal] != true %>
+
+
+  <div class="sidenav-divider mt-0"></div>
+  <% end %>
+
+  <!-- Links -->
+  <ul class="sidenav-inner<% if local_assigns[:horizontal] != true %> py-1<% end %>">
+
+    <!-- Dashboards -->
+    <li class="sidenav-item">
+      <a href="/" class="sidenav-link"><i class="sidenav-icon ion ion-md-speedometer"></i><div>Spyfluence</div></a>
+    </li>
+
+    <li class="sidenav-divider mb-1"></li>
+    <li class="sidenav-header small font-weight-semibold">REPORTS</li>
+
+    <!--
+    <li class="sidenav-item">
+      <%= link_to(edit_user_registration_path, class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon ion ion-md-settings"></i><div>Job History</div>
+      <% end %>
+    </li>
+
+    <li class="sidenav-item">
+      <%= link_to(edit_user_registration_path, class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon ion ion-md-settings"></i><div>Completed Jobs</div>
+      <% end %>
+    </li>
+
+    <li class="sidenav-item">
+      <%= link_to(edit_user_registration_path, class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon ion ion-md-settings"></i><div>Current Jobs</div>
+      <% end %>
+    </li>
+    -->
+
+    <li class="sidenav-item">
+      <%= link_to(scrape_path, class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon fa fa-search"></i><div>New Spy Campaign</div>
+      <% end %>
+    </li>
+
+    <li class="sidenav-item">
+      <%= link_to('/campaigns', class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon ion ion-md-cube"></i><div>My Campaigns</div>
+      <% end %>
+    </li> 
+
+    <li class="sidenav-divider mb-1"></li>
+    <li class="sidenav-header small font-weight-semibold">ACCOUNT</li>
+
+    <li class="sidenav-item">
+      <%= link_to(billing_path, class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon fa fa-file-invoice-dollar"></i><div>Billing</div>
+      <% end %>
+    </li>
+
+    <li class="sidenav-item">
+      <%= link_to(edit_user_registration_path, class:"sidenav-link", method: :get) do %>
+        <i class="sidenav-icon ion ion-md-settings"></i><div>Settings</div>
+      <% end %>
+    </li>
+    <li class="sidenav-item">
+      <%= link_to(destroy_user_session_path, class:"sidenav-link", method: :delete) do %>
+        <i class="sidenav-icon ion ion-md-exit"></i><div>Logout</div>
+      <% end %>
+    </li>
+  </ul>
+</div>
+<!-- / Layout sidenav -->

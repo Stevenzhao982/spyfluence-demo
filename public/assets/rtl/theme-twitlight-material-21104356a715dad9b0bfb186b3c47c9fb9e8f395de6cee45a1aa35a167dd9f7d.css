@@ -1,0 +1,1208 @@
+/* line 11, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/rtl/theme-twitlight-material.scss */
+body {
+  background: #f8f8f8;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
+.text-primary {
+  color: #4c84ff !important;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+a.text-primary:hover, a.text-primary:focus {
+  color: #1961ff !important;
+}
+
+/* line 145, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-primary {
+  background-color: #4c84ff !important;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+a.bg-primary:hover, a.bg-primary:focus {
+  background-color: #487df2 !important;
+}
+
+/* line 145, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-primary-dark {
+  background-color: #4477e6 !important;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+a.bg-primary-dark:hover, a.bg-primary-dark:focus {
+  background-color: #4171db !important;
+}
+
+/* line 145, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-primary-darker {
+  background-color: #4170d9 !important;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+a.bg-primary-darker:hover, a.bg-primary-darker:focus {
+  background-color: #3e6ace !important;
+}
+
+/* line 35, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_theme/_common.scss */
+html:not([dir=rtl]) .border-primary, html[dir=rtl] .border-primary {
+  border-color: #4c84ff !important;
+}
+
+/* line 413, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.badge-primary {
+  background-color: #4c84ff;
+  color: #fff;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.badge-primary[href]:hover, .badge-primary[href]:focus {
+  background-color: #487df2;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 426, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn .badge-primary {
+  background-color: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 433, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.badge-outline-primary {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 1px #4c84ff inset;
+          box-shadow: 0 0 0 1px #4c84ff inset;
+  color: #4c84ff;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.badge-outline-primary[href]:hover, .badge-outline-primary[href]:focus {
+  color: #4c84ff;
+  text-decoration: none;
+}
+
+/* line 446, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn .badge-outline-primary {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 1px #4c84ff inset !important;
+          box-shadow: 0 0 0 1px #4c84ff inset !important;
+  color: #4c84ff !important;
+}
+
+/* line 24, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.page-item.active .page-link, .page-item.active .page-link:hover, .page-item.active .page-link:focus,
+.pagination li.active > a:not(.page-link),
+.pagination li.active > a:not(.page-link):hover,
+.pagination li.active > a:not(.page-link):focus {
+  border-color: #4c84ff !important;
+  background-color: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 566, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.progress-bar {
+  background-color: #4c84ff;
+  color: #fff;
+}
+
+/* line 582, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.list-group-item-primary {
+  border-color: rgba(0, 0, 0, 0.07);
+  background-color: #edf3ff;
+  color: #5f6166;
+}
+
+/* line 588, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+a.list-group-item-primary,
+button.list-group-item-primary {
+  color: #5f6166;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+a.list-group-item-primary:hover, a.list-group-item-primary:focus,
+button.list-group-item-primary:hover,
+button.list-group-item-primary:focus {
+  background-color: #ebf1fc;
+  color: #5f6166;
+}
+/* line 597, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+a.list-group-item-primary.active,
+button.list-group-item-primary.active {
+  border-color: #4c84ff;
+  background-color: #4c84ff;
+  color: #5f6166;
+}
+
+/* line 24, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  border-color: #4c84ff;
+  background-color: #4c84ff;
+  color: #fff;
+}
+
+/* line 627, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.alert-primary {
+  border-color: #d6dff0;
+  background-color: #e4edff;
+  color: #5b5f66;
+}
+/* line 632, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.alert-primary hr {
+  border-top-color: #d6dff0;
+}
+/* line 636, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.alert-primary .alert-link {
+  color: #5b5f66;
+}
+
+/* line 645, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.alert-dark-primary {
+  background-color: #4c84ff;
+  color: #fff;
+}
+/* line 649, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.alert-dark-primary hr {
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+/* line 653, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.alert-dark-primary .close,
+.alert-dark-primary .alert-link {
+  color: #fff;
+}
+
+/* line 665, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.tooltip-primary .tooltip-inner, .tooltip-primary > .tooltip .tooltip-inner, .ngb-tooltip-primary + ngb-tooltip-window .tooltip-inner {
+  background: #4c84ff;
+  color: #fff;
+}
+/* line 670, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.tooltip-primary.bs-tooltip-top .arrow::before, .tooltip-primary.bs-tooltip-auto[x-placement^="top"] .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-top .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-top .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+  border-top-color: #4c84ff;
+}
+/* line 671, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.tooltip-primary.bs-tooltip-right .arrow::before, .tooltip-primary.bs-tooltip-auto[x-placement^="right"] .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-right .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-auto[x-placement^="right"] .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-right .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+  border-right-color: #4c84ff;
+}
+/* line 672, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.tooltip-primary.bs-tooltip-bottom .arrow::before, .tooltip-primary.bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-bottom .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-bottom .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+  border-bottom-color: #4c84ff;
+}
+/* line 673, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.tooltip-primary.bs-tooltip-left .arrow::before, .tooltip-primary.bs-tooltip-auto[x-placement^="left"] .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-left .arrow::before, .tooltip-primary > .tooltip.bs-tooltip-auto[x-placement^="left"] .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-left .arrow::before, .ngb-tooltip-primary + ngb-tooltip-window.bs-tooltip-auto[x-placement^="left"] .arrow::before {
+  border-left-color: #4c84ff;
+}
+
+/* line 683, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary, .popover-primary > .popover, .ngb-popover-primary + ngb-popover-window {
+  border-color: transparent;
+  background: #4c84ff;
+}
+/* line 687, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary .popover-header, .popover-primary > .popover .popover-header, .ngb-popover-primary + ngb-popover-window .popover-header {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #fff;
+}
+/* line 693, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary .popover-body, .popover-primary > .popover .popover-body, .ngb-popover-primary + ngb-popover-window .popover-body {
+  background: transparent;
+  color: #fff;
+}
+/* line 698, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary .arrow::before, .popover-primary > .popover .arrow::before, .ngb-popover-primary + ngb-popover-window .arrow::before {
+  border-color: transparent !important;
+}
+/* line 700, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary.bs-popover-top .arrow::after, .popover-primary.bs-popover-auto[x-placement^="top"] .arrow::after, .popover-primary > .popover.bs-popover-top .arrow::after, .popover-primary > .popover.bs-popover-auto[x-placement^="top"] .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-top .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="top"] .arrow::after {
+  border-top-color: #4c84ff;
+}
+/* line 701, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary.bs-popover-right .arrow::after, .popover-primary.bs-popover-auto[x-placement^="right"] .arrow::after, .popover-primary > .popover.bs-popover-right .arrow::after, .popover-primary > .popover.bs-popover-auto[x-placement^="right"] .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-right .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="right"] .arrow::after {
+  border-right-color: #4c84ff;
+}
+/* line 702, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary.bs-popover-bottom .arrow::after, .popover-primary.bs-popover-auto[x-placement^="bottom"] .arrow::after, .popover-primary > .popover.bs-popover-bottom .arrow::after, .popover-primary > .popover.bs-popover-auto[x-placement^="bottom"] .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-bottom .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="bottom"] .arrow::after {
+  border-bottom-color: #4c84ff;
+}
+/* line 703, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.popover-primary.bs-popover-left .arrow::after, .popover-primary.bs-popover-auto[x-placement^="left"] .arrow::after, .popover-primary > .popover.bs-popover-left .arrow::after, .popover-primary > .popover.bs-popover-auto[x-placement^="left"] .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-left .arrow::after, .ngb-popover-primary + ngb-popover-window.bs-popover-auto[x-placement^="left"] .arrow::after {
+  border-left-color: #4c84ff;
+}
+
+/* line 1303, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.table .table-primary,
+.table .table-primary > th,
+.table .table-primary > td {
+  border-color: rgba(0, 0, 0, 0.035);
+  background-color: #edf3ff;
+  color: #5f6166;
+}
+
+/* line 1311, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.table-hover .table-primary:hover,
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: #ebf1fc;
+}
+
+/* line 223, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary {
+  background: #4c84ff;
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 10px 0px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 10px 0px rgba(0, 0, 0, 0.03);
+  color: #fff;
+}
+/* line 13, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn-primary:hover {
+  background: #558aff;
+  color: #fff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn-primary:hover, .btn-primary:focus {
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.15), 0px 4px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.15), 0px 4px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* line 238, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary .badge {
+  background: #fff;
+  color: #4c84ff;
+}
+
+/* line 243, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary .waves-ripple {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* line 247, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background: #6394ff;
+  -webkit-box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.15), 0px 8px 10px 1px rgba(0, 0, 0, 0.1), 0px 3px 14px 2px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.15), 0px 8px 10px 1px rgba(0, 0, 0, 0.1), 0px 3px 14px 2px rgba(0, 0, 0, 0.06);
+}
+
+/* line 255, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary.md-btn-flat {
+  background: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #4c84ff !important;
+}
+/* line 260, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary.md-btn-flat:focus, .btn-primary.md-btn-flat.focus {
+  background: rgba(76, 132, 255, 0.1) !important;
+}
+/* line 265, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary.md-btn-flat .waves-ripple {
+  background: rgba(76, 132, 255, 0.3) !important;
+}
+
+/* line 270, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary.md-btn-flat:active,
+.btn-primary.md-btn-flat.active,
+.show > .btn-primary.md-btn-flat.dropdown-toggle {
+  background: rgba(76, 132, 255, 0.15) !important;
+}
+
+/* line 278, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background: #4c84ff !important;
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 10px 0px rgba(0, 0, 0, 0.03) !important;
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 10px 0px rgba(0, 0, 0, 0.03) !important;
+  color: #fff !important;
+}
+
+/* line 285, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-primary.md-btn-flat.disabled,
+.btn-primary.md-btn-flat:disabled {
+  background: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #4c84ff !important;
+}
+
+/* line 360, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary {
+  background: transparent;
+  -webkit-box-shadow: 0 0 0 1px #4c84ff inset;
+          box-shadow: 0 0 0 1px #4c84ff inset;
+  color: #4c84ff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  background: #4c84ff;
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.15), 0px 4px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.15), 0px 4px 5px 0px rgba(0, 0, 0, 0.1), 0px 1px 10px 0px rgba(0, 0, 0, 0.06);
+  color: #fff;
+}
+/* line 370, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary:hover .badge, .btn-outline-primary:focus .badge {
+  background: #fff;
+  color: #4c84ff;
+}
+/* line 376, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  background: transparent !important;
+  -webkit-box-shadow: 0 0 0 1px #4c84ff inset !important;
+          box-shadow: 0 0 0 1px #4c84ff inset !important;
+  color: #4c84ff !important;
+}
+
+/* line 384, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary .badge {
+  background: #4c84ff;
+  color: #fff;
+}
+
+/* line 389, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary .waves-ripple {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* line 393, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background: #558aff;
+  -webkit-box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.15), 0px 8px 10px 1px rgba(0, 0, 0, 0.1), 0px 3px 14px 2px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.15), 0px 8px 10px 1px rgba(0, 0, 0, 0.1), 0px 3px 14px 2px rgba(0, 0, 0, 0.06);
+  color: #fff;
+}
+/* line 400, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.btn-outline-primary:active .badge,
+.btn-outline-primary.active .badge,
+.show > .btn-outline-primary.dropdown-toggle .badge {
+  background: #fff;
+  color: #4c84ff;
+}
+
+/* line 475, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.dropdown-item:not(.disabled).active {
+  background-color: #4c84ff;
+  color: #fff;
+}
+
+/* line 480, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.dropdown-menu > li.active:not(.disabled) > a:not(.dropdown-item) {
+  background-color: #4c84ff;
+  color: #fff;
+}
+
+/* line 528, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.nav-tabs .nav-link {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4c84ff), to(#4c84ff));
+  background-image: linear-gradient(#4c84ff, #4c84ff);
+}
+
+/* line 24, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus {
+  background-color: #4c84ff;
+  color: #fff;
+}
+
+/* line 792, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.custom-control.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before, .custom-control.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, .custom-control.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #4c84ff;
+}
+/* line 798, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.custom-control.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+  background-color: #4c84ff;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E");
+}
+/* line 803, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.custom-control.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #4c84ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.5 7.5'%3E%3Cpolyline points='0.25 4.35 4.18 6.75 9.25 0.75' style='fill:none;stroke:%23fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px'/%3E%3C/svg%3E");
+}
+/* line 808, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.custom-control.custom-radio .custom-control-label::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%234c84ff'/%3E%3C/svg%3E");
+}
+/* line 812, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.custom-control .custom-control-input:checked ~ .custom-control-label::after {
+  background: rgba(76, 132, 255, 0.15);
+}
+
+/* line 1047, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.custom-file-input:focus ~ .custom-file-label {
+  border-bottom-color: #4c84ff;
+  -webkit-box-shadow: 0 -1px 0 0 #4c84ff inset;
+          box-shadow: 0 -1px 0 0 #4c84ff inset;
+}
+
+/* line 1088, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.form-control:focus,
+.custom-select:focus {
+  border-bottom-color: #4c84ff;
+  -webkit-box-shadow: 0 -1px 0 0 #4c84ff inset;
+          box-shadow: 0 -1px 0 0 #4c84ff inset;
+}
+
+/* line 1227, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.switcher-input:checked ~ .switcher-indicator {
+  background: rgba(76, 132, 255, 0.5);
+}
+/* line 1230, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.switcher-input:checked ~ .switcher-indicator::after {
+  background: #4c84ff;
+}
+/* line 1234, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.switcher-input:checked ~ .switcher-indicator::before {
+  background: rgba(76, 132, 255, 0.15);
+}
+
+/* line 1324, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary {
+  background-color: #4c84ff !important;
+  color: #dce7ff;
+}
+/* line 1328, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-brand {
+  color: #fff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.navbar.bg-primary .navbar-brand:hover, .navbar.bg-primary .navbar-brand:focus {
+  color: #fff;
+}
+/* line 1337, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-nav .nav-link {
+  color: #dce7ff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.navbar.bg-primary .navbar-nav .nav-link:hover, .navbar.bg-primary .navbar-nav .nav-link:focus {
+  color: #fff;
+}
+/* line 1344, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-nav .nav-link.disabled {
+  color: #a2bfff !important;
+}
+/* line 1349, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-nav .show > .nav-link,
+.navbar.bg-primary .navbar-nav .active > .nav-link,
+.navbar.bg-primary .navbar-nav .nav-link.show,
+.navbar.bg-primary .navbar-nav .nav-link.active {
+  color: #fff;
+}
+/* line 1357, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-toggler {
+  color: #dce7ff;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+/* line 1362, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* line 1366, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-text {
+  color: #dce7ff;
+}
+/* line 1369, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary .navbar-text a {
+  color: #fff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.navbar.bg-primary .navbar-text a:hover, .navbar.bg-primary .navbar-text a:focus {
+  color: #fff;
+}
+/* line 1378, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.navbar.bg-primary hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* line 1397, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary {
+  background-color: #4c84ff !important;
+  color: #dce7ff;
+}
+/* line 1401, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-link,
+.sidenav.bg-primary .sidenav-horizontal-prev,
+.sidenav.bg-primary .sidenav-horizontal-next {
+  color: #dce7ff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.sidenav.bg-primary .sidenav-link:hover, .sidenav.bg-primary .sidenav-link:focus,
+.sidenav.bg-primary .sidenav-horizontal-prev:hover,
+.sidenav.bg-primary .sidenav-horizontal-prev:focus,
+.sidenav.bg-primary .sidenav-horizontal-next:hover,
+.sidenav.bg-primary .sidenav-horizontal-next:focus {
+  color: #fff;
+}
+/* line 1410, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-link.active,
+.sidenav.bg-primary .sidenav-horizontal-prev.active,
+.sidenav.bg-primary .sidenav-horizontal-next.active {
+  color: #fff;
+}
+/* line 1415, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-item.disabled .sidenav-link,
+.sidenav.bg-primary .sidenav-horizontal-prev.disabled,
+.sidenav.bg-primary .sidenav-horizontal-next.disabled {
+  color: #a2bfff !important;
+}
+/* line 1421, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-item.open:not(.sidenav-item-closing) > .sidenav-toggle,
+.sidenav.bg-primary .sidenav-item.active > .sidenav-link {
+  color: #fff;
+}
+/* line 1426, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
+  background-color: #487df2;
+}
+/* line 1430, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary.sidenav-horizontal .sidenav-menu > .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
+  background-color: #4477e6;
+}
+/* line 1434, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary.sidenav-horizontal .sidenav-inner > .sidenav-item:not(.sidenav-item-closing) > .sidenav-menu, .sidenav.bg-primary.sidenav-horizontal .sidenav-inner > .sidenav-item.open > .sidenav-toggle {
+  background: #487df2;
+}
+/* line 1439, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-menu,
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-toggle {
+  background: transparent;
+  color: #dce7ff;
+}
+/* line 1445, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-text {
+  color: #fff;
+}
+/* line 1449, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-header {
+  color: #b8ceff;
+}
+/* line 1453, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary hr,
+.sidenav.bg-primary .sidenav-divider,
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.open > .sidenav-menu::before {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+/* line 1459, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-inner > .sidenav-header::before,
+.sidenav.bg-primary .sidenav-block::before {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/* line 1464, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before {
+  background-color: #6391f4;
+}
+/* line 1468, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
+  background-color: #fff;
+}
+/* line 1472, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before,
+.sidenav.bg-primary .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
+  -webkit-box-shadow: 0 0 0 2px #487df2;
+          box-shadow: 0 0 0 2px #487df2;
+}
+/* line 1477, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.sidenav.bg-primary .ps__thumb-y,
+.sidenav.bg-primary .ps__rail-y.ps--clicking > .ps__thumb-y {
+  background: rgba(255, 255, 255, 0.6027890196) !important;
+}
+
+/* line 1490, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.footer.bg-primary {
+  background-color: #4c84ff !important;
+  color: #dce7ff;
+}
+/* line 1494, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.footer.bg-primary .footer-link {
+  color: #dce7ff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.footer.bg-primary .footer-link:hover, .footer.bg-primary .footer-link:focus {
+  color: #fff;
+}
+/* line 1501, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.footer.bg-primary .footer-link.disabled {
+  color: #a2bfff !important;
+}
+/* line 1506, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.footer.bg-primary .footer-text {
+  color: #fff;
+}
+/* line 1510, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.footer.bg-primary .show > .footer-link,
+.footer.bg-primary .active > .footer-link,
+.footer.bg-primary .footer-link.show,
+.footer.bg-primary .footer-link.active {
+  color: #fff;
+}
+/* line 1517, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.footer.bg-primary hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* line 57, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_theme/_common.scss */
+.fill-primary {
+  fill: #4c84ff;
+}
+
+/* line 10, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-slider/_mixins.scss */
+.slider-primary .slider-handle {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+/* line 14, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-slider/_mixins.scss */
+.slider-primary .slider-handle,
+.slider-primary .slider-selection,
+.slider-primary .slider-reversed .slider-track-high, .slider-primary.slider-reversed .slider-track-high {
+  background: #4c84ff;
+}
+
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/nouislider/_mixins.scss */
+.noUi-primary .noUi-base .noUi-handle {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background: #4c84ff !important;
+}
+/* line 22, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/nouislider/_mixins.scss */
+.noUi-primary .noUi-base .noUi-connect {
+  background: #4c84ff !important;
+}
+
+/* line 43, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/select2/_mixins.scss */
+.material-style .select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #4c84ff !important;
+  color: #fff !important;
+}
+/* line 48, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/select2/_mixins.scss */
+.material-style .select2-container--default.select2-container--focus:not(.select2-container--disabled) .select2-selection, .material-style .select2-container--default.select2-container--open:not(.select2-container--disabled) .select2-selection {
+  border-color: #4c84ff !important;
+  -webkit-box-shadow: 0 -1px 0 0 #4c84ff inset !important;
+          box-shadow: 0 -1px 0 0 #4c84ff inset !important;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/select2/_mixins.scss */
+.material-style .select2-primary .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background: #4c84ff;
+  color: #fff;
+}
+
+/* line 8, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-tagsinput/_mixins.scss */
+.bootstrap-tagsinput.focus {
+  border-color: #4c84ff !important;
+  -webkit-box-shadow: 0 -1px 0 0 #4c84ff inset !important;
+          box-shadow: 0 -1px 0 0 #4c84ff inset !important;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-select/_mixins.scss */
+.bootstrap-select .dropdown-menu.inner a[aria-selected=true] {
+  background: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 9, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-datepicker/_mixins.scss */
+.datepicker table tr td.active, .datepicker table tr td.active.highlighted, .datepicker table tr td.active.today,
+.datepicker table tr td span.active,
+.datepicker table tr td span.active.disabled, .datepicker table tr td.range-start, .datepicker table tr td.range-end {
+  background: #4c84ff !important;
+  color: #fff !important;
+}
+/* line 20, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-datepicker/_mixins.scss */
+.datepicker table tr td.range, .datepicker table tr td.range.highlighted, .datepicker table tr td.range.today {
+  background: #e4edff !important;
+  color: #5b5f66 !important;
+}
+/* line 26, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-datepicker/_mixins.scss */
+.datepicker table tr td.range.focused, .datepicker table tr td.range.highlighted.focused, .datepicker table tr td.range.today.focused {
+  background: #c5d9ff !important;
+}
+/* line 30, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-datepicker/_mixins.scss */
+.datepicker table tr td.range.disabled, .datepicker table tr td.range.highlighted.disabled, .datepicker table tr td.range.today.disabled {
+  background: rgba(228, 237, 255, 0.5) !important;
+  color: rgba(91, 95, 102, 0.5) !important;
+}
+
+/* line 8, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-daterangepicker/_mixins.scss */
+.daterangepicker td.active {
+  background-color: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 13, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-daterangepicker/_mixins.scss */
+.daterangepicker td.in-range:not(.start-date):not(.end-date):not(.off) {
+  background-color: #e4edff !important;
+  color: #5b5f66 !important;
+}
+
+/* line 18, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-daterangepicker/_mixins.scss */
+.daterangepicker .input-mini.active {
+  border-color: #4c84ff !important;
+}
+
+/* line 22, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-daterangepicker/_mixins.scss */
+.ranges li.active {
+  background-color: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp-date,
+.dtp-time {
+  background: #4c84ff;
+  color: #fff;
+}
+
+/* line 12, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp-close > a {
+  color: #fff;
+}
+
+/* line 14, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+header.dtp-header {
+  background: #4170d9;
+  color: #fff;
+}
+
+/* line 19, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+table.dtp-picker-days tr > td > a.selected {
+  background: #4c84ff;
+  color: #fff !important;
+}
+
+/* line 24, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp-actual-meridien a.selected {
+  background: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 30, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp .year-picker-item:hover {
+  color: #4c84ff;
+}
+/* line 31, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp .year-picker-item.active {
+  color: #4c84ff;
+}
+
+/* line 34, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp .svg-clock [stroke="#8BC34A"] {
+  stroke: #4c84ff !important;
+}
+
+/* line 35, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp .svg-clock [fill="#8BC34A"] {
+  fill: #4c84ff !important;
+}
+
+/* line 36, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-material-datetimepicker/_mixins.scss */
+.dtp .svg-clock [fill="#fff"] {
+  fill: #fff !important;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/timepicker/_mixins.scss */
+li.ui-timepicker-selected,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+  background: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/growl/_mixins.scss */
+.growl-default {
+  background: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/bootstrap-markdown/_mixins.scss */
+.md-editor.active {
+  border-color: #4c84ff !important;
+}
+
+/* line 71, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/quill/_mixins.scss */
+.ql-snow.ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  color: #4c84ff !important;
+}
+/* line 81, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/quill/_mixins.scss */
+.ql-snow.ql-toolbar button:hover .ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
+  fill: #4c84ff !important;
+}
+/* line 98, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/quill/_mixins.scss */
+.ql-snow.ql-toolbar button:hover .ql-stroke,
+.ql-snow.ql-toolbar button:focus .ql-stroke,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow.ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
+.ql-snow .ql-toolbar button:hover .ql-stroke,
+.ql-snow .ql-toolbar button:focus .ql-stroke,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow .ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
+  stroke: #4c84ff !important;
+}
+
+/* line 6, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/typeahead-js/_mixins.scss */
+.tt-suggestion:active,
+.tt-cursor {
+  background: #4c84ff !important;
+  color: #fff !important;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/dropzone/_mixins.scss */
+.dropzone.dz-drag-hover {
+  border-color: #4c84ff !important;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/swiper/_mixins.scss */
+.swiper-pagination-bullet.swiper-pagination-bullet-active,
+.swiper-pagination.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #4c84ff !important;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/spinkit/_mixins.scss */
+.sk-primary.sk-rotating-plane,
+.sk-primary.sk-double-bounce .sk-child,
+.sk-primary.sk-wave .sk-rect,
+.sk-primary.sk-wandering-cubes .sk-cube,
+.sk-primary.sk-spinner-pulse,
+.sk-primary.sk-chasing-dots .sk-child,
+.sk-primary.sk-three-bounce .sk-child,
+.sk-primary.sk-circle .sk-child:before,
+.sk-primary.sk-cube-grid .sk-cube,
+.sk-primary.sk-fading-circle .sk-circle:before,
+.sk-primary.sk-folding-cube .sk-cube:before {
+  background-color: #4c84ff;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/smartwizard/_mixins.scss */
+.sw-theme-default .step-anchor > li.active > a .sw-icon,
+.sw-theme-default .step-anchor > li.active > a .sw-number {
+  color: #4c84ff;
+  border-color: #4c84ff;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr input[type='range']::-ms-fill-lower {
+  background: #4c84ff !important;
+}
+
+/* line 7, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr input[type='range']:active::-webkit-slider-thumb {
+  background: #4c84ff !important;
+}
+/* line 10, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr input[type='range']:active::-moz-range-thumb {
+  background: #4c84ff !important;
+}
+/* line 13, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr input[type='range']:active::-ms-thumb {
+  background: #4c84ff !important;
+}
+
+/* line 18, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr--video .plyr__controls button.tab-focus:focus,
+.plyr--video .plyr__controls button:hover {
+  background: #4c84ff !important;
+  color: !important;
+}
+
+/* line 24, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr--audio .plyr__controls button:hover {
+  background: #4c84ff !important;
+  color: !important;
+}
+
+/* line 30, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr__play-large {
+  background: #4c84ff !important;
+  color: !important;
+}
+
+/* line 35, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/plyr/_mixins.scss */
+.plyr__progress--played,
+.plyr__volume--display {
+  color: #4c84ff !important;
+}
+
+/* line 13, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/fullcalendar/_mixins.scss */
+.fc-event,
+.fc-event-dot {
+  background: rgba(76, 132, 255, 0.15) !important;
+}
+
+/* line 18, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/fullcalendar/_mixins.scss */
+.fc-highlight,
+.fc-bgevent {
+  background: #4c84ff !important;
+}
+
+/* line 2, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_theme/_uikit.scss */
+.ui-product-color.active {
+  -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4c84ff !important;
+          box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4c84ff !important;
+}
+
+/* line 1324, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme {
+  background-color: #343c44 !important;
+  color: #a2a6a9;
+}
+/* line 1328, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-brand {
+  color: #fff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.bg-navbar-theme .navbar-brand:hover, .bg-navbar-theme .navbar-brand:focus {
+  color: #fff;
+}
+/* line 1337, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-nav .nav-link {
+  color: #a2a6a9;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.bg-navbar-theme .navbar-nav .nav-link:hover, .bg-navbar-theme .navbar-nav .nav-link:focus {
+  color: #fff;
+}
+/* line 1344, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-nav .nav-link.disabled {
+  color: #767c81 !important;
+}
+/* line 1349, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-nav .show > .nav-link,
+.bg-navbar-theme .navbar-nav .active > .nav-link,
+.bg-navbar-theme .navbar-nav .nav-link.show,
+.bg-navbar-theme .navbar-nav .nav-link.active {
+  color: #fff;
+}
+/* line 1357, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-toggler {
+  color: #a2a6a9;
+  border-color: rgba(255, 255, 255, 0.06);
+}
+/* line 1362, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* line 1366, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-text {
+  color: #a2a6a9;
+}
+/* line 1369, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme .navbar-text a {
+  color: #fff;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.bg-navbar-theme .navbar-text a:hover, .bg-navbar-theme .navbar-text a:focus {
+  color: #fff;
+}
+/* line 1378, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-navbar-theme hr {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* line 1397, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme {
+  background-color: #3f4853 !important;
+  color: #96a1a9;
+}
+/* line 1401, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-link,
+.bg-sidenav-theme .sidenav-horizontal-prev,
+.bg-sidenav-theme .sidenav-horizontal-next {
+  color: #96a1a9;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.bg-sidenav-theme .sidenav-link:hover, .bg-sidenav-theme .sidenav-link:focus,
+.bg-sidenav-theme .sidenav-horizontal-prev:hover,
+.bg-sidenav-theme .sidenav-horizontal-prev:focus,
+.bg-sidenav-theme .sidenav-horizontal-next:hover,
+.bg-sidenav-theme .sidenav-horizontal-next:focus {
+  color: #fff;
+}
+/* line 1410, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-link.active,
+.bg-sidenav-theme .sidenav-horizontal-prev.active,
+.bg-sidenav-theme .sidenav-horizontal-next.active {
+  color: #fff;
+}
+/* line 1415, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-item.disabled .sidenav-link,
+.bg-sidenav-theme .sidenav-horizontal-prev.disabled,
+.bg-sidenav-theme .sidenav-horizontal-next.disabled {
+  color: #737d87 !important;
+}
+/* line 1421, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-item.open:not(.sidenav-item-closing) > .sidenav-toggle,
+.bg-sidenav-theme .sidenav-item.active > .sidenav-link {
+  color: #fff;
+}
+/* line 1426, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
+  background-color: #3c444f;
+}
+/* line 1430, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme.sidenav-horizontal .sidenav-menu > .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
+  background-color: #39414b;
+}
+/* line 1434, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme.sidenav-horizontal .sidenav-inner > .sidenav-item:not(.sidenav-item-closing) > .sidenav-menu, .bg-sidenav-theme.sidenav-horizontal .sidenav-inner > .sidenav-item.open > .sidenav-toggle {
+  background: #3c444f;
+}
+/* line 1439, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-menu,
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.sidenav-item-closing .sidenav-item.open .sidenav-toggle {
+  background: transparent;
+  color: #96a1a9;
+}
+/* line 1445, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-text {
+  color: #fff;
+}
+/* line 1449, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-header {
+  color: #808b94;
+}
+/* line 1453, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme hr,
+.bg-sidenav-theme .sidenav-divider,
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.open > .sidenav-menu::before {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+/* line 1459, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-inner > .sidenav-header::before,
+.bg-sidenav-theme .sidenav-block::before {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/* line 1464, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before {
+  background-color: #596069;
+}
+/* line 1468, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
+  background-color: #fff;
+}
+/* line 1472, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.open > .sidenav-toggle::before,
+.bg-sidenav-theme .sidenav-inner > .sidenav-item.open .sidenav-item.active > .sidenav-link::before {
+  -webkit-box-shadow: 0 0 0 2px #3c444f;
+          box-shadow: 0 0 0 2px #3c444f;
+}
+/* line 1477, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-sidenav-theme .ps__thumb-y,
+.bg-sidenav-theme .ps__rail-y.ps--clicking > .ps__thumb-y {
+  background: rgba(255, 255, 255, 0.5106870588) !important;
+}
+
+/* line 28, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/rtl/theme-twitlight-material.scss */
+.bg-sidenav-theme .sidenav-item.active > .sidenav-link:not(.sidenav-toggle) {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* line 35, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/rtl/theme-twitlight-material.scss */
+.bg-sidenav-theme.sidenav-vertical .sidenav-item.active > .sidenav-link:not(.sidenav-toggle)::after,
+.bg-sidenav-theme .sidenav-vertical .sidenav-item.active > .sidenav-link:not(.sidenav-toggle)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-left: 4px solid #4c84ff;
+}
+/* line 45, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/rtl/theme-twitlight-material.scss */
+.layout-collapsed .bg-sidenav-theme.sidenav-vertical:not(:hover) .sidenav-item .sidenav-item.active > .sidenav-link:not(.sidenav-toggle)::after,
+.layout-collapsed .bg-sidenav-theme .sidenav-vertical:not(:hover) .sidenav-item .sidenav-item.active > .sidenav-link:not(.sidenav-toggle)::after {
+  display: none;
+}
+
+/* line 51, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/rtl/theme-twitlight-material.scss */
+[dir=rtl] .bg-sidenav-theme.sidenav-vertical .sidenav-item.active > .sidenav-link:not(.sidenav-toggle)::after,
+[dir=rtl] .bg-sidenav-theme .sidenav-vertical .sidenav-item.active > .sidenav-link:not(.sidenav-toggle)::after {
+  right: 0;
+  left: auto;
+}
+
+/* line 1490, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-footer-theme {
+  background-color: #fff !important;
+  color: #a3a4a6;
+}
+/* line 1494, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-footer-theme .footer-link {
+  color: #a3a4a6;
+}
+/* line 17, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap/scss/mixins/_hover.scss */
+.bg-footer-theme .footer-link:hover, .bg-footer-theme .footer-link:focus {
+  color: #4E5155;
+}
+/* line 1501, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-footer-theme .footer-link.disabled {
+  color: #c8c8ca !important;
+}
+/* line 1506, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-footer-theme .footer-text {
+  color: #4E5155;
+}
+/* line 1510, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-footer-theme .show > .footer-link,
+.bg-footer-theme .active > .footer-link,
+.bg-footer-theme .footer-link.show,
+.bg-footer-theme .footer-link.active {
+  color: #4E5155;
+}
+/* line 1517, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/stylesheets/_appwork/_mixins.scss */
+.bg-footer-theme hr {
+  border-color: rgba(78, 81, 85, 0.075);
+}

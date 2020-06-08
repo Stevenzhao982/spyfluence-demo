@@ -1,0 +1,27 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "worker",
+  "main": "Worker.js",
+  "dependencies": {
+    "@sendgrid/client": "^6.3.0",
+    "@sendgrid/mail": "^6.3.1",
+    "amqplib": "^0.5.2",
+    "async": "^2.6.0",
+    "csv-write-stream": "^2.0.0",
+    "dotenv": "^6.1.0",
+    "instagram-private-api": "git+https://969eeb3457158508365b9146d3ee4261a494f3b7:x-oauth-basic@github.com:Stevenzhao982/instagram-v1.git",
+    "moment": "^2.22.2",
+    "pg": "^7.6.0",
+    "pg-promise": "^8.5.1",
+    "request": "^2.83.0",
+    "sendgrid": "^5.2.3",
+    "tough-cookie": "^2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

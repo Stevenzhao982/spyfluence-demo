@@ -1,0 +1,1 @@
+$(function(){"rtl"===$("html").attr("dir")&&$(".team-actions .dropdown-menu").removeClass("dropdown-menu-right")});

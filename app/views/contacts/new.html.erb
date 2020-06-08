@@ -1,0 +1,31 @@
+<div class="authentication-wrapper authentication-1 px-4" style="padding-top:4%">
+  <div class="authentication-inner py-5">
+
+    <h2 style="text-align:center">  
+        <i class="fa fa-comment"></i> Get in touch
+    </h2>
+
+    <%= form_for(@contact, class:"my-5") do |f| %>
+    <br/>
+
+    <div class="field form-group" style="width:35%; text-align:left; display:block; margin-left:auto; margin-right:auto">
+      <%= f.label :name, class: "form-label" %><br />
+      <%= f.text_field :name, class:"form-control", autofocus: true, required: true, style: "display:inline-block" %>
+    </div>
+
+     <div class="field form-group" style="width:35%; text-align:left; display:block; margin-left:auto; margin-right:auto">
+      <%= f.label :email, class: "form-label" %><br />
+      <%= f.email_field :email, class:"form-control", autofocus: true, required: true, style: "display:inline-block" %>
+    </div>
+
+    <div class="field form-group" style="width:35%; text-align:left; display:block; margin-left:auto; margin-right:auto">
+      <%= f.label :message, class: "form-label" %><br />
+      <%= f.text_area :message, class:"form-control", autocomplete: "current-password", style: "display:inline-block;  height:200px;" %>
+    </div>
+
+    <div class="actions" style="width:35%; text-align:center; display:block; margin-left:auto; margin-right:auto; margin-bottom:0.1%">
+      <%= f.submit "Send a message", class:"btn btn-primary btn-block mt-4" %>
+    </div>
+    <% end %>
+  </div>
+</div>

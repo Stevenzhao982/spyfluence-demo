@@ -1,0 +1,33 @@
+<% content_for :styles do %>
+    <%= stylesheet_link_tag 'pages/profiles.css', media: 'all' %>
+<% end %>
+
+<div id="page-body" class="container px-0">
+    <h2 class="text-center font-weight-bolder pt-5">
+        PROFILES
+    </h2>
+
+    <table class='table table-condensed table-hover' style="text-align: center">
+        <thead>
+            <tr>
+                <th style="color:#1e70cd"> Profile </th>
+                <th style="color:#1e70cd"> Account </th>
+                <th style="color:#1e70cd"> Followers </th>
+                <th style="color:#1e70cd"> Following </th>
+                <th style="color:#1e70cd"> Followers to Following </th>
+                <th style="color:#1e70cd"> Recent Average Post Likes </th>
+                <th style="color:#1e70cd"> Recent Average Post Comments </th>
+                <th style="color:#1e70cd"> Recent Engagement Rate </th>
+                <th style="color:#1e70cd"> Detail View </th>
+            </tr>
+        </thead>
+
+        <tbody id='profiles'>
+            <%= render partial: "profiles/profile", collection: @profiles %>
+        </tbody>
+    </table>
+    <div class="container pagination justify-content-center" >
+      <%= paginate @profiles %>
+    </div>
+    <br>
+</div>

@@ -1,0 +1,17 @@
+<tr>
+    <td><%= campaign.competitor.account %></td>
+    <td><%= campaign.status == "created" ? "running" : campaign.status %></td>
+    <td><%= campaign.mode %></td>
+    <td><%= campaign.profiles %></td>
+    <td>
+        <% if campaign.status == "complete" %>
+            <%= campaign.end_time.to_date %>
+        <% elsif campaign.status == "running" %>
+            <%= "#{number_with_precision((campaign.completion_estimate - campaign.start_time) / 3600, precision: 1)} Hours Remaining" %>
+        <% else %>
+            <%= "#{number_with_precision(((campaign.completion_estimate - campaign.created_at) / 3600) + 1, precision: 1)} Hours Remaining" %>
+        <% end %>
+    </td>
+    <td><%= campaign.status == "complete" ? (link_to 'View', profiles_path(competitor_id: campaign.competitor_id)) : "Awaiting Completion" %></td>
+    <td><%= campaign.status == "complete" ? (link_to 'Download', download_path(competitor_id: campaign.competitor_id), data: { turbolinks: false }) : "Awaiting Completion" %></td>
+</tr>

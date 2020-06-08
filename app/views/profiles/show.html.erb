@@ -1,0 +1,115 @@
+<% content_for :styles do %>
+    <%= stylesheet_link_tag 'pages/profiles.css', media: 'all' %>
+<% end %>
+
+<div id="page-body" class="container px-0">
+    <h2 class="text-center font-weight-bolder pt-5">
+        PROFILE DETAILS
+    </h2>
+
+    <div class="container emp-profile">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-img">
+                            <img src="<%= @profile.profile_picture %>" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="profile-head">
+                            <h2>
+                                <%= @profile.account %>
+                            </h2>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="stats-tab" data-toggle="tab" href="#stats" role="tab" aria-controls="stats" aria-selected="true">Stats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-info-tab" data-toggle="tab" href="#contact-info" role="tab" aria-controls="contact-info" aria-selected="false">Contact Info</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" id="relevant-links-tab" data-toggle="tab" href="#relevant-links" role="tab" aria-controls="relevant-links" aria-selected="false">Relevant Links</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="recent-tags-tab" data-toggle="tab" href="#recent-tags" role="tab" aria-controls="recent-tags" aria-selected="false">Recent Hash Tags</a>
+                                </li> 
+                            </ul>
+                        </div>
+                        <%= @profile.description %>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4" style="text-align: center">
+                        <br/>
+                        <a href="https://<%= @profile.instagram_link %>" target="_blank" class="btn btn-info" name="btnAddMore">View on Instagram</a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="stats" role="tabpanel" aria-labelledby="stats-tab">
+                                <div class="row">
+                                    <div class="col-md-12">               
+                                        <table class='table table-condensed table-hover' style="text-align: left">
+                                            <thead>
+                                                <tr>
+                                                    <th> Statistic </th>
+                                                    <th> Value </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id='profiles'>
+                                                <tr>
+                                                    <td> Followers </td>
+                                                    <td> <%= @profile.followers %> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Following </td>
+                                                    <td> <%= @profile.following %> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Followers to Following </td>
+                                                    <td> <%= @profile.followers_to_following %> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Recent Average Post Likes </td>
+                                                    <td> <%= @profile.recent_average_post_likes %> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Recent Average Post Comments </td>
+                                                    <td> <%= @profile.recent_average_post_comments %> </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Recent Engagement Rate </td>
+                                                    <td> <%= @profile.engagement_rate %> </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="tab-pane fade" id="contact-info" role="tabpanel" aria-labelledby="contact-info-tab">
+                                <ul class="list-group">
+                                    <div><%= @profile.phone_number.nil? ? nil : "#{@profile.phone_number} (Phone Number)" %></div>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="relevant-links" role="tabpanel" aria-labelledby="relevant-links-tab">
+                                <ul class="list-group">
+                                    <% @profile.relevant_links.each do |link| %>
+                                        <li class="list-group-item"><%= link %></li>
+                                    <% end %>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="recent-tags" role="tabpanel" aria-labelledby="recent-tags-tab">
+                                <ul class="list-group">
+                                    <% @profile.tags.each do |tag| %>
+                                        <li class="list-group-item"><%= tag %></li>
+                                    <% end %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>           
+        </div>
+    <br>
+</div>

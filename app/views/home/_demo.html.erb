@@ -1,0 +1,19 @@
+<tr>
+    <td>
+        <a href="<%= demo.instagram_link %>" target="_blank">
+            <img src="<%= demo.profile_picture %>" style="width:60px; height:60px">
+        </a>
+    </td>
+    <td><%= demo.account %></td>
+    <td><%= demo.description %></td>
+    <td><%= demo.followers %></td>
+    <td><%= demo.following %></td>
+    <td><%= demo.followers_to_following %></td>
+    <td><%= demo.recent_average_post_likes %></td>
+    <td><%= demo.recent_average_post_comments %></td>
+    <td><%= demo.engagement_rate %></td>
+    <td><%= demo.phone_number %></td>
+    <td><%= demo.contact_info %></td>
+    <td><%= demo.relevant_links.empty? || demo.relevant_links[0] == "" ? nil : demo.relevant_links %></td>
+    <td><%= demo.tags.empty? || demo.tags[0] == "" ? nil : demo.tags %></td>
+</tr>

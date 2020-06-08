@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48f76a66-4864-4478-9154-3be1d2f41f1f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="worker.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2101">
+              <caret line="365" column="38" lean-forward="false" selection-start-line="365" selection-start-column="38" selection-end-line="365" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_to_scrape</find>
+      <find>contact_info</find>
+      <find>created</find>
+      <find>followers_to_following</find>
+      <find>followers_to_num_post</find>
+      <find>recent_average_post_likes</find>
+      <find>engagement</find>
+      <find>base</find>
+      <find>profile</find>
+      <find>private</find>
+      <find>followings</find>
+      <find>following</find>
+      <find>job_queue</find>
+      <find>bookmark_profile</find>
+      <find>params.job.bookmark_profile</find>
+      <find>cursors[profile_count</find>
+      <find>profile_cursor</find>
+      <find>instagram_link</find>
+      <find>finished</find>
+      <find>console</find>
+      <find>Sleeping</find>
+      <find>for this cursor</find>
+      <find>profileIds</find>
+      <find>totalProfileIds</find>
+      <find>alari.code</find>
+      <find>sleep</find>
+      <find>Failed at write profiles</find>
+      <find>profile_count</find>
+      <find>map</find>
+      <find>this is cursor</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Producer.js" />
+        <option value="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" />
+        <option value="$PROJECT_DIR$/cookies/123abcthrowaway.json" />
+        <option value="$PROJECT_DIR$/shit.txt" />
+        <option value="$PROJECT_DIR$/node_modules/Test.js" />
+        <option value="$PROJECT_DIR$/Test.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/constants.js" />
+        <option value="$PROJECT_DIR$/accounts/accounts.json" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/web/web-request.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-nodejs-without-api/instagram.js" />
+        <option value="$PROJECT_DIR$/Following.js" />
+        <option value="$PROJECT_DIR$/Followers.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/account.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/request.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/cookie-storage.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/feeds/account-followers.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/feeds/account-following.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/feeds/feed-base.js" />
+        <option value="$PROJECT_DIR$/Generate_Cookies.js" />
+        <option value="$PROJECT_DIR$/Worker.js" />
+        <option value="$PROJECT_DIR$/test_queries.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/node_modules/instagram-private-api/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/worker.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-329" />
+    <option name="width" value="1287" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spyfluence-script-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfluence-script-v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfluence-script-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfluence-script-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfluence-script-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfluence-script-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="instagram-private-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfluence-script-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfluence-script-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="instagram-private-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfluence-script-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfluence-script-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="instagram-private-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfluence-script-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfluence-script-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="instagram-private-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="feeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Steven/Desktop/script/worker.js&#10;sleep&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Steven\Desktop\script" />
+      <recent name="E:\Steven\Desktop\script\node_modules" />
+      <recent name="E:\Steven\Desktop\script\accounts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.Worker.js">
+    <configuration name="Generate_Cookies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/generate_cookies.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Test.js" working-dir="$PROJECT_DIR$/" />
+    <configuration name="Worker.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/worker.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="instagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="instagram.js" working-dir="$PROJECT_DIR$/node_modules/instagram-nodejs-without-api" />
+    <configuration name="test_queries.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Worker.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Generate_Cookies.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Test.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.instagram.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.test_queries.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Worker.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Test.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.test_queries.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Generate_Cookies.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.instagram.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48f76a66-4864-4478-9154-3be1d2f41f1f" name="Default" comment="" />
+      <created>1518235873200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518235873200</updated>
+      <workItem from="1518235874610" duration="923000" />
+      <workItem from="1519074165462" duration="29000" />
+      <workItem from="1519074210369" duration="4487000" />
+      <workItem from="1519180387862" duration="3942000" />
+      <workItem from="1519261616959" duration="5264000" />
+      <workItem from="1519433980035" duration="747000" />
+      <workItem from="1519452501631" duration="2497000" />
+      <workItem from="1519457176860" duration="225000" />
+      <workItem from="1519585046281" duration="14718000" />
+      <workItem from="1519695377011" duration="8852000" />
+      <workItem from="1519777529069" duration="12778000" />
+      <workItem from="1519862659116" duration="12372000" />
+      <workItem from="1519957926191" duration="2286000" />
+      <workItem from="1520041782363" duration="3000" />
+      <workItem from="1520044648741" duration="599000" />
+      <workItem from="1520191610498" duration="16491000" />
+      <workItem from="1520300813732" duration="585000" />
+      <workItem from="1520305997006" duration="2437000" />
+      <workItem from="1520391983958" duration="8801000" />
+      <workItem from="1520477405568" duration="7361000" />
+      <workItem from="1520547863205" duration="523000" />
+      <workItem from="1520558167180" duration="10097000" />
+      <workItem from="1520639953547" duration="1400000" />
+      <workItem from="1520648099607" duration="5000" />
+      <workItem from="1520722029057" duration="6913000" />
+      <workItem from="1520792278277" duration="2899000" />
+      <workItem from="1520801988565" duration="9920000" />
+      <workItem from="1520899657347" duration="4803000" />
+      <workItem from="1520908292249" duration="19000" />
+      <workItem from="1521078411381" duration="2535000" />
+      <workItem from="1521594892171" duration="5620000" />
+      <workItem from="1521675876570" duration="579000" />
+      <workItem from="1521676681956" duration="3410000" />
+      <workItem from="1521920868292" duration="1438000" />
+      <workItem from="1521923054323" duration="284000" />
+      <workItem from="1521927194967" duration="1092000" />
+      <workItem from="1522200464600" duration="1907000" />
+      <workItem from="1522212156587" duration="939000" />
+      <workItem from="1522242403338" duration="3657000" />
+      <workItem from="1522330410478" duration="1241000" />
+      <workItem from="1522893852761" duration="4950000" />
+      <workItem from="1522967951449" duration="15578000" />
+      <workItem from="1523054285400" duration="9396000" />
+      <workItem from="1523068077556" duration="1593000" />
+      <workItem from="1523117676760" duration="628000" />
+      <workItem from="1523236846723" duration="634000" />
+      <workItem from="1523416573387" duration="40000" />
+      <workItem from="1523416626690" duration="42000" />
+      <workItem from="1523417347926" duration="17000" />
+      <workItem from="1523418044344" duration="47000" />
+      <workItem from="1523494610302" duration="2978000" />
+      <workItem from="1524776707044" duration="228000" />
+      <workItem from="1524799234442" duration="4135000" />
+      <workItem from="1524856008150" duration="10552000" />
+      <workItem from="1524891247345" duration="377000" />
+      <workItem from="1524893321987" duration="2497000" />
+      <workItem from="1524941310217" duration="3217000" />
+      <workItem from="1524955841629" duration="6483000" />
+      <workItem from="1525022839943" duration="1359000" />
+      <workItem from="1525115748514" duration="11841000" />
+      <workItem from="1535307477138" duration="1555000" />
+      <workItem from="1535644177112" duration="666000" />
+      <workItem from="1535745995729" duration="26000" />
+      <workItem from="1535746229219" duration="202000" />
+      <workItem from="1535759271894" duration="635000" />
+      <workItem from="1539460662247" duration="862000" />
+      <workItem from="1540750053923" duration="1786000" />
+      <workItem from="1540754015885" duration="7509000" />
+      <workItem from="1540773373755" duration="2633000" />
+      <workItem from="1540861053247" duration="6341000" />
+      <workItem from="1540872879128" duration="184000" />
+      <workItem from="1540945712538" duration="4465000" />
+      <workItem from="1541032987372" duration="599000" />
+      <workItem from="1541037083572" duration="7846000" />
+      <workItem from="1541367275243" duration="599000" />
+      <workItem from="1541466210922" duration="9866000" />
+      <workItem from="1542081222640" duration="599000" />
+      <workItem from="1542163497886" duration="1021000" />
+      <workItem from="1542248777827" duration="1632000" />
+      <workItem from="1542250977038" duration="1271000" />
+      <workItem from="1542481070666" duration="22948000" />
+      <workItem from="1542559098049" duration="17343000" />
+      <workItem from="1542679796555" duration="5333000" />
+      <workItem from="1542852927635" duration="357000" />
+      <workItem from="1542853307499" duration="26000" />
+      <workItem from="1542858807738" duration="599000" />
+      <workItem from="1542907939352" duration="160000" />
+      <workItem from="1543085398589" duration="2574000" />
+      <workItem from="1543171507855" duration="9609000" />
+      <workItem from="1543273721104" duration="9700000" />
+      <workItem from="1543367572952" duration="5162000" />
+      <workItem from="1543451935278" duration="2983000" />
+      <workItem from="1543488727144" duration="1503000" />
+      <workItem from="1543546453572" duration="600000" />
+      <workItem from="1543620234817" duration="10295000" />
+      <workItem from="1543687211549" duration="14807000" />
+      <workItem from="1543771845385" duration="3159000" />
+      <workItem from="1543775036565" duration="608000" />
+      <workItem from="1543791112515" duration="1252000" />
+      <workItem from="1543806467803" duration="1842000" />
+      <workItem from="1546140495351" duration="113000" />
+      <workItem from="1546146518258" duration="257000" />
+      <workItem from="1546409050555" duration="1988000" />
+      <workItem from="1546413774831" duration="81000" />
+      <workItem from="1546452181632" duration="126000" />
+      <workItem from="1546453029540" duration="604000" />
+      <workItem from="1546463920914" duration="2381000" />
+      <workItem from="1546469820807" duration="631000" />
+      <workItem from="1546476667247" duration="53000" />
+      <workItem from="1547087132144" duration="4261000" />
+      <workItem from="1547360515200" duration="93000" />
+      <workItem from="1547606759524" duration="987000" />
+      <workItem from="1547643772807" duration="213000" />
+      <workItem from="1547674725272" duration="599000" />
+      <workItem from="1547748092867" duration="20000" />
+      <workItem from="1547768953737" duration="26894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="441728000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16332982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31304348" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3728261" sideWeight="0.49578503" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39565217" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36086956" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16332982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Producer.js" />
+    <entry file="file://$PROJECT_DIR$/worker.js" />
+    <entry file="file://$PROJECT_DIR$/Producer.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/exceptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/request/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Documents/GitHub/App/server.js" />
+    <entry file="file://$PROJECT_DIR$/cookies/abc123throwaway" />
+    <entry file="file://$PROJECT_DIR$/cookies/BobJones1998Throwaway.json" />
+    <entry file="file://$PROJECT_DIR$/cookies/samsmith1998throwaway.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/Test.js" />
+    <entry file="file://$PROJECT_DIR$/rosekitty_cl.csv" />
+    <entry file="file://$PROJECT_DIR$/cookies/jerryjones1998throwaway.json" />
+    <entry file="file://$PROJECT_DIR$/cookies/bobmarkjohn123.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies/JohnJones1998throwaway.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies/bobmarkjones321.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies/123abcthrowaway.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/accounts.json" />
+    <entry file="file://$PROJECT_DIR$/file.jpeg" />
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/thread.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Followers.js" />
+    <entry file="file://$PROJECT_DIR$/Following.js" />
+    <entry file="file://$PROJECT_DIR$/shit.txt" />
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/web/web-request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-nodejs-without-api/instagram.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="338" column="56" lean-forward="true" selection-start-line="338" selection-start-column="56" selection-end-line="338" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/../../GitHub/App/server.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/async/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="414" lean-forward="false" selection-start-line="5" selection-start-column="414" selection-end-line="5" selection-end-column="414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tough-cookie-filestore/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/cookie-storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/cookie-file-storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_cookies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/feeds/feed-base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="61" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="70" lean-forward="false" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Steven/Desktop/spyfluence-script-v1/worker.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/feeds/account-followers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1354">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/instagram-private-api/client/v1/feeds/account-following.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2101">
+          <caret line="365" column="38" lean-forward="false" selection-start-line="365" selection-start-column="38" selection-end-line="365" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

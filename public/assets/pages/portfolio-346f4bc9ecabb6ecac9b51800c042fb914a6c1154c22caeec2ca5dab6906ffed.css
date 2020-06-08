@@ -1,0 +1,912 @@
+/*
+ * Basic
+*/
+/* line 6, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+body {
+  color: #555;
+  font-size: 1.125rem;
+  font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+}
+
+/* line 13, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+body:not(.loaded) {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 19, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+body:not(.pace-done) {
+  background: #000;
+}
+
+/* line 23, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.font-secondary {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+ * Loader
+*/
+@-webkit-keyframes portfolioLoaderAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes portfolioLoaderAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes portfolioLoaderIndicatorAnimation {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes portfolioLoaderIndicatorAnimation {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes portfolioLoaderIndicatorAnimationRtl {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes portfolioLoaderIndicatorAnimationRtl {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+/* line 106, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-page-loader {
+  position: fixed;
+  top: 0;
+  right: auto;
+  left: 0;
+  z-index: 999999;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-transform: translateZ(0, 0, 0);
+  transform: translateZ(0, 0, 0);
+}
+
+/* line 122, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-page-loader .page-loader {
+  top: 50%;
+  left: 50%;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid;
+  border-right-color: transparent !important;
+  border-radius: 4rem;
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-animation: portfolioLoaderIndicatorAnimation .5s infinite;
+  animation: portfolioLoaderIndicatorAnimation .5s infinite;
+}
+
+/* line 137, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] #portfolio-page-loader .page-loader {
+  right: 50%;
+  left: auto;
+  margin-right: -1rem;
+  margin-left: 0;
+  -webkit-animation-name: portfolioLoaderIndicatorAnimationRtl;
+  animation-name: portfolioLoaderIndicatorAnimationRtl;
+}
+
+/* line 146, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.pace-done #portfolio-page-loader {
+  -webkit-animation: portfolioLoaderAnimation 1s ease-in-out forwards;
+  animation: portfolioLoaderAnimation 1s ease-in-out forwards;
+}
+
+/* line 151, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.loaded #portfolio-page-loader {
+  display: none !important;
+}
+
+/*
+ * Slider
+*/
+/* line 159, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider {
+  z-index: 10;
+  min-height: 100vh;
+}
+
+/* line 164, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -ms-flex-align: stretch;
+  min-height: 100vh;
+}
+
+/* Slider image */
+/* line 176, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Slider image overlay */
+/* line 188, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.5)), color-stop(50%, transparent), color-stop(63%, transparent), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, transparent 63%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+/* Slider content */
+/* line 200, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .slider-content {
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+/* Slider caption */
+/* line 217, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-caption {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+@media (min-width: 576px) {
+  /* line 223, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+  .portfolio-caption {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 228, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+  .portfolio-caption {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 233, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+  .portfolio-caption {
+    font-size: 4.5rem;
+  }
+}
+/* Slider link */
+/* line 239, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-link {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+/* line 245, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + .75rem);
+  display: block;
+  margin-top: -1px;
+  width: 1rem;
+  border-top: 2px solid;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+/* line 257, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-link:hover::after {
+  width: 4rem;
+  will-change: width;
+}
+
+/* line 262, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] .portfolio-link::after {
+  right: calc(100% + .75rem);
+  left: auto;
+}
+
+/*
+ * Slider animations
+*/
+/* line 271, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .portfolio-image {
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transform: translate3d(0, 0, 0) scale(1.2);
+  transform: translate3d(0, 0, 0) scale(1.2);
+  will-change: transform;
+}
+
+/* line 285, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .swiper-slide-active .portfolio-image {
+  -webkit-box-shadow: 0 0 300px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 0 300px rgba(0, 0, 0, 0.06) inset;
+  /* Wait for slide change */
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition-duration: 3.75s;
+  transition-duration: 3.75s;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+/* line 297, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .slider-content {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-out;
+  transition: opacity .3s ease-out;
+}
+
+/* line 302, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .swiper-slide-active .slider-content {
+  opacity: 1 !important;
+  /* Wait for slide change */
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+/*
+ * Slider navs
+*/
+/* line 313, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .swiper-button-prev,
+#portfolio-slider .swiper-button-next {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 326, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .swiper-button-prev:hover:not(.disabled) {
+  padding-left: 15px;
+}
+
+/* line 329, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] #portfolio-slider .swiper-button-prev:hover:not(.disabled) {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+/* line 334, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+#portfolio-slider .swiper-button-next:hover:not(.disabled) {
+  padding-right: 15px;
+}
+
+/* line 337, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] #portfolio-slider .swiper-button-next:hover:not(.disabled) {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+/*
+ * Navbar
+*/
+/* line 346, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar,
+.portfolio-navbar-inner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  height: 80px;
+}
+
+/* line 356, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 80px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+/* line 373, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar,
+.portfolio-navbar a {
+  color: #fff !important;
+}
+
+/* Light */
+/* line 379, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+html:not(.portfolio-navbar-expanded) body:not(.portfolio-navbar-expanded) .portfolio-navbar-light:not(.portfolio-navbar-alt) .portfolio-navbar-inner,
+html:not(.portfolio-navbar-expanded) body:not(.portfolio-navbar-expanded) .portfolio-navbar-light:not(.portfolio-navbar-alt) .portfolio-navbar-inner a {
+  color: #444 !important;
+}
+
+/* line 384, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-inner {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+}
+
+/* Menu */
+/* line 405, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 424, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li {
+  overflow: hidden;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+
+/* line 440, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li:first-child {
+  margin-top: auto;
+}
+
+/* line 443, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li:last-child {
+  margin-bottom: auto;
+}
+
+/* line 446, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li a {
+  position: relative;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+/* line 451, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li + li {
+  padding-top: .5rem;
+}
+
+/* Menu item hover effect */
+/* line 456, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li a::before,
+.portfolio-navbar-menu li a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 0;
+  border-top: 1px solid;
+  -webkit-transition: width .25s;
+  transition: width .25s;
+}
+
+/* line 466, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li a::before {
+  right: 100%;
+  margin-right: .5rem;
+}
+
+/* line 470, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] .portfolio-navbar-menu li a::before {
+  right: auto;
+  left: 100%;
+  margin-right: 0;
+  margin-left: .5rem;
+}
+
+/* line 476, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li a::after {
+  left: 100%;
+  margin-left: .5rem;
+}
+
+/* line 480, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] .portfolio-navbar-menu li a::after {
+  right: 100%;
+  left: auto;
+  margin-right: .5rem;
+  margin-left: 0;
+}
+
+/* line 486, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu li a:hover::before,
+.portfolio-navbar-menu li a:hover::after {
+  width: 2rem;
+}
+
+/* line 492, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-no-transition {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+/* line 496, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-no-transition .portfolio-navbar-menu {
+  overflow: auto;
+}
+
+/* Expand animation */
+/* line 501, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* line 506, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(1) {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
+/* line 510, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(2) {
+  -webkit-transition-delay: .3s;
+  transition-delay: .3s;
+}
+
+/* line 514, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(3) {
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+
+/* line 518, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(4) {
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+
+/* line 522, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(5) {
+  -webkit-transition-delay: .6s;
+  transition-delay: .6s;
+}
+
+/* line 526, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(6) {
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
+}
+
+/* line 530, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(7) {
+  -webkit-transition-delay: .8s;
+  transition-delay: .8s;
+}
+
+/* line 534, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(8) {
+  -webkit-transition-delay: .9s;
+  transition-delay: .9s;
+}
+
+/* line 538, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(9) {
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+/* line 542, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(10) {
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+
+/* line 546, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(11) {
+  -webkit-transition-delay: 1.3s;
+  transition-delay: 1.3s;
+}
+
+/* line 550, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(12) {
+  -webkit-transition-delay: 1.4s;
+  transition-delay: 1.4s;
+}
+
+/* line 554, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(13) {
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+
+/* line 558, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(14) {
+  -webkit-transition-delay: 1.6s;
+  transition-delay: 1.6s;
+}
+
+/* line 562, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu li:nth-of-type(15) {
+  -webkit-transition-delay: 1.7s;
+  transition-delay: 1.7s;
+}
+
+/* Navbar toggle */
+/* line 568, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu-toggle {
+  position: relative;
+  display: block;
+  width: 28px;
+  height: 20px;
+}
+
+/* line 574, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu-toggle span,
+.portfolio-navbar-menu-toggle::before,
+.portfolio-navbar-menu-toggle:after {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100%;
+  border-top: 2px solid;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+/* line 585, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu-toggle span {
+  top: 50%;
+  margin-top: -1px;
+  opacity: 1;
+}
+
+/* line 590, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu-toggle::before,
+.portfolio-navbar-menu-toggle:after {
+  content: "";
+}
+
+/* line 594, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu-toggle::before {
+  top: 0;
+}
+
+/* line 597, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-menu-toggle::after {
+  bottom: 0;
+}
+
+/* Navbar toggle - expanded state */
+/* line 602, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu-toggle span {
+  opacity: 0;
+}
+
+/* line 605, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu-toggle::before {
+  top: 50%;
+  margin-top: -1px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 611, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] .portfolio-navbar-expanded .portfolio-navbar-menu-toggle::before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 615, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-menu-toggle::after {
+  bottom: 50%;
+  margin-bottom: -1px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 621, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+[dir=rtl] .portfolio-navbar-expanded .portfolio-navbar-menu-toggle::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Navbar states */
+/* line 628, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar,
+.portfolio-navbar-alt {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/*  */
+/* line 634, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-alt,
+.portfolio-navbar-alt .portfolio-navbar-inner {
+  height: 60px;
+}
+
+/* line 638, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-alt {
+  padding-top: 60px;
+}
+
+/* Expanded */
+/* line 643, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded body,
+body.portfolio-navbar-expanded {
+  overflow: hidden !important;
+}
+
+/* line 647, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar {
+  height: 100%;
+}
+
+/* line 650, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.layout-sidenav-100vh .portfolio-navbar-expanded .portfolio-navbar {
+  height: 100vh;
+}
+
+/* line 653, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-navbar-expanded .portfolio-navbar-inner {
+  height: 80px;
+}
+
+/*
+ * Content
+*/
+/* line 661, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-block {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 992px) {
+  /* line 666, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+  .portfolio-block {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+}
+/* line 672, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-block-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* line 676, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-block-padding-t {
+  padding-top: 5rem;
+}
+
+/* line 679, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-block-padding-b {
+  padding-bottom: 5rem;
+}
+
+/* line 683, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnail {
+  overflow: hidden;
+}
+
+/* line 686, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnail .img-thumbnail-content {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* line 694, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnail-img {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+/* line 698, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnail:hover .portfolio-thumbnail-img {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+@-webkit-keyframes portfolioThumbnailsItemInAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0) scale(0.25);
+    transform: translate3d(0, 0, 0) scale(0.25);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+@keyframes portfolioThumbnailsItemInAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0) scale(0.25);
+    transform: translate3d(0, 0, 0) scale(0.25);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+@-webkit-keyframes portfolioThumbnailsItemOutAnimation {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0) scale(0.25);
+    transform: translate3d(0, 0, 0) scale(0.25);
+  }
+}
+@keyframes portfolioThumbnailsItemOutAnimation {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0) scale(0.25);
+    transform: translate3d(0, 0, 0) scale(0.25);
+  }
+}
+/* line 753, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnails-item {
+  will-change: transform;
+}
+
+/* line 756, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnails-item.animate-in {
+  -webkit-animation: portfolioThumbnailsItemInAnimation .5s ease-out forwards;
+  animation: portfolioThumbnailsItemInAnimation .5s ease-out forwards;
+}
+
+/* line 760, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-thumbnails-item.animate-out {
+  -webkit-animation: portfolioThumbnailsItemOutAnimation .3s ease-in forwards;
+  animation: portfolioThumbnailsItemOutAnimation .3s ease-in forwards;
+}
+
+/*
+ * Forms
+*/
+/* line 769, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+html:not(.material-style) .portfolio-form-control {
+  border-width: 2px;
+}
+
+/* line 772, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/portfolio.scss */
+.portfolio-form-control {
+  border-color: rgba(24, 28, 33, 0.06);
+  border-bottom-width: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}

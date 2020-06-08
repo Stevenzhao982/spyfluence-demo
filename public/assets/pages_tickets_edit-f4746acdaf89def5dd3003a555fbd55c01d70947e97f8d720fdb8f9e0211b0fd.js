@@ -1,0 +1,1 @@
+$(function(){$(".ticket-assignee").tooltip(),$("#ticket-tags").tagsinput({tagClass:"badge badge-primary"}),$("#ticket-upload-dropzone").dropzone({parallelUploads:2,maxFilesize:5e4,filesizeBase:1e3,addRemoveLinks:!0})});

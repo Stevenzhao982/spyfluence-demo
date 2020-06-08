@@ -1,0 +1,7 @@
+<tr>
+    <td><%= job.id %></td>
+    <td><%= job.competitor.account %></td>
+    <td><%= job.mode %></td>
+    <td> <%= humanized_money_with_symbol job.price %> </td>
+    <td><%= job.created_at.to_date %></td>
+</tr> 

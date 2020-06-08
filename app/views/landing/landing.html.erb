@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<!-- Add landing-1 to html element -->
+<html lang="en" class="landing-1 default-style">
+<head>
+  <title> SPYFLUENCE</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Page -->
+  <%= stylesheet_link_tag 'pages/landing.css', media: 'all' %>
+
+  <!-- Libs -->
+  <%= stylesheet_link_tag 'swiper/swiper.css', media: 'all' %>
+  <%= stylesheet_link_tag 'plyr/plyr.css', media: 'all' %>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="jumbotron ui-hero ui-mh-100vh ui-bg-cover" style="background-image: url(<%= image_path "pages/landing-1-bg.png"%>)">
+    <div class="container-fluid pr-lg-5 pl-xl-5">
+      <div class="row no-gutters justify-content-center w-100 pt-3">
+
+        <div class="col-lg-7 col-xl-6 text-lg-left text-center my-5 mr-xl-5">
+          <h1 class="display-3 font-secondary font-weight-semibold mb-4">
+            Tap into the power of Instagram Networks
+          </h1>
+          <p class="lead text-muted pb-3">
+            Get insights, analytics, contact information and much more from any Instagram audience of your choice
+          </p>
+          <a class="landing-btn btn btn-lg btn-round btn-primary mt-2" href="/demo" target="_blank" role="button">
+            <span class="ion ion-ios-fastforward"></span>&nbsp; View Demo Report
+          </a>
+        </div>
+
+        <div class="col-lg-5 text-center pl-lg-5 pl-xl-2 my-5">
+          <%= image_tag "pages/landing-1-img.png", class: "w-100", style: "max-width: 550px" %> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- / Header -->
+
+  <!-- Stats Block -->
+  <div class="bg-lighter">
+    <div class="container py-2 px-3">
+      <div class="row row-bordered text-center">
+
+        <div class="col-md-4 line-height-1 py-3">
+          <h3 class="font-weight-semibold mb-1">77+</h3>
+          <small class="text-light text-tiny">MONTHLY REPORTS GENERATED</small>
+        </div>
+
+        <div class="col-md-4 line-height-1 py-3">
+          <h3 class="font-weight-semibold mb-1">4,921,332</h3>
+          <small class="text-light text-tiny">PROFILES ANALYZED</small>
+        </div>
+
+        <div class="col-md-4 line-height-1 py-3">
+          <h3 class="font-weight-semibold mb-1">
+           <i class="ion ion-md-star"></i>
+           <i class="ion ion-md-star"></i>
+           <i class="ion ion-md-star"></i>
+           <i class="ion ion-md-star"></i>
+           <i class="ion ion-md-star-half"></i>
+          </h3>
+          <small class="text-light text-tiny">CUSTOMER SATISFACTION</small>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- / Block -->
+
+  <div class="bg-white">
+
+    <!-- Description Block
+    <div class="landing-block pb-5">
+      <div class="container px-3">
+
+        <div class="col-md-10 col-lg-8 col-xl-7 text-center p-0 mx-auto">
+          <div class="display-3 text-primary mb-4">
+            <i class="lnr lnr-rocket"></i>
+          </div>
+          <h1 class="display-4 font-secondary font-weight-semibold mb-5">
+            Ultimate Tool for Professionals
+          </h1>
+          <div class="text-muted">
+            Lorem ipsum dolor sit amet, ad eam consul vituperata. Cum assum inimicus an, his ne liber aeterno debitis. Te his iudico tollit efficiendi. Eu harum volumus pri, oporteat probatus disputationi id his. Mei in vidit mollis mediocrem, cum ad suas democritum,
+            ea eos e ligendi nominati volutpat.
+          </div>
+        </div>
+
+      </div>
+    </div>
+    / Block -->
+
+  </div>
+
+  <!-- Block -->
+  <div id="features" class="landing-block" style="background-color: white">
+    <div class="container px-3">
+
+      <div class="col-md-10 col-lg-8 col-xl-7 text-center p-0 mx-auto">
+        <h1 class="display-4 font-secondary font-weight-semibold mb-4">
+          FEATURES
+        </h1>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 mt-5">
+          <div class="display-4 text-primary mx-auto mb-4">
+            <span class="lnr lnr-users"></span>
+          </div>
+          <h5>Full network reach</h5>
+          <div class="text-muted small">
+            We can get you a report on ANY non-private instagram audience out there
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
+          <div class="display-4 text-primary mx-auto mb-4">
+            <span class="lnr lnr-clock"></span>
+          </div>
+          <h5>Fast profile analysis</h5>
+          <div class="text-muted small">
+            Each profile of an audience takes ONLY 3 seconds to fully analyze (limited at 250,000 profiles)
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
+          <div class="display-4 text-primary mx-auto mb-4">
+            <span class="lnr lnr-file-empty"></span>
+          </div>
+          <h5>Detailed results</h5>
+          <div class="text-muted small">
+            Your report will contain ALL obtainable information about an audience (view sample report above)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Block -->
+
+
+  <!-- Block -->
+  <div id="demo" class="landing-block bg-white px-3">
+    <div class="container px-3">
+      <h1 class="display-4 font-secondary text-center font-weight-semibold">
+        DISCOVER THE APP
+      </h1>
+    </div>
+    <hr class="landing-separator border-primary mx-auto mt-5 mb-4">
+
+    <div class="app-preview-slider-wrapper">
+      <div class="app-preview-slider swiper-container" id="landing-preview-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <%= image_tag "pages/app-1.png", class: "img-fluid cursor-pointer" %> 
+          </div>
+          <div class="swiper-slide">
+            <%= image_tag "pages/app-2.png", class: "img-fluid cursor-pointer" %> 
+          </div>
+          <div class="swiper-slide">
+            <%= image_tag "pages/app-3.png", class: "img-fluid cursor-pointer" %> 
+          </div>
+          <div class="swiper-slide">
+            <%= image_tag "pages/app-4.png", class: "img-fluid cursor-pointer" %> 
+          </div>
+          <div class="swiper-slide">
+            <%= image_tag "pages/app-5.png", class: "img-fluid cursor-pointer" %> 
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <!-- / Block -->
+   <!-- Block -->
+  <div class="landing-block container px-3">
+    <h1 class="display-4 font-secondary text-center font-weight-semibold">
+      HOW IT WORKS
+    </h1>
+
+    <hr class="landing-separator border-success mx-auto mt-5 mb-4">
+
+    <div class="row text-center">
+      <div class="col-md-4 my-4">
+        <div class="text-success mx-auto mb-4">
+          <span class="ui-icon font-weight-bolder">
+          <i class="ion ion-md-search"></i>
+        </span>
+        </div>
+        <h5>STEP 1) Provide an Instagram URL</h5>
+        <div class="text-muted small">
+          Enter in any non-private instagram profile that you want an audience analysis of (either their followers or following)
+        </div>
+      </div>
+      <div class="col-md-4 my-4">
+        <div class="text-success mx-auto mb-4">
+          <span class="ui-icon font-weight-bolder">
+          <i class="ion ion-md-cash"></i>
+        </span>
+        </div>
+        <h5>STEP 2) Pay for your results</h5>
+        <div class="text-muted small">
+          Pay for your report based on the number of followers or following that our analytics service will go through
+        </div>
+      </div>
+      <div class="col-md-4 my-4">
+        <div class="text-success mx-auto mb-4">
+          <span class="ui-icon font-weight-bolder">
+          <i class="ion ion-md-paper"></i>
+        </span>
+        </div>
+        <h5>STEP 3) Get your report</h5>
+        <div class="text-muted small">
+          Once your report is ready, you can view the results through your logged in dashboard or download the report as a CSV 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Block -->
+
+  <!-- Youtube Demo Block -->
+  <!--
+  <div class="landing-block pt-5">
+    <div class="container px-3">
+      <div class="row justify-content-between align-items-center">
+
+        <div class="col-lg-5 col-xl-4 text-lg-left text-center mx-auto">
+          <div class="text-lighter text-tiny font-weight-bold mb-3">INTRODUCING</div>
+          <h1 class="display-4 font-secondary font-weight-semibold mb-4">Unlimited Possibilities</h1>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, ad eam consul vituperata. Cum assum inimicus an, his ne liber aeterno debitis. Te his iudico tollit efficiendi.
+          </p>
+        </div>
+
+        <div class="col-lg-7 col-xl-7 mt-5 mt-lg-0">
+          <div id="landing-video" data-type="youtube" data-video-id="bTqVqk7FSmY" class="w-100"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  -->
+  <!-- / Block -->
+
+  <!-- Block -->
+  <div class="landing-block ui-bg-cover ui-bg-fixed ui-bg-overlay-container text-white" style="background-image: url(<%= image_path "pages/landing-users.jpg"%>)">
+    <div class="ui-bg-overlay bg-dark opacity-75"></div>
+    <div class="container px-3">
+
+      <h1 class="display-4 font-secondary text-center font-weight-semibold mb-5">
+        What Our Users Say
+      </h1>
+
+      <hr class="landing-separator border-primary mx-auto mb-5">
+
+      <div class="col-md-10 col-lg-8 col-xl-7 position-relative px-5 mx-auto">
+        <div class="swiper-container w-auto text-center mx-3" id="landing-testimonials-slider">
+          <div class="swiper-wrapper align-items-stretch">
+
+            <div class="swiper-slide h-auto">
+              <%= image_tag "avatars/1-small.png", class: "ui-w-80 rounded-circle" %>
+              <div class="ui-customer-review my-3">
+                I love using these reports to find high-quality Instagram influencers, saves me a lot of time because I already know who they're connected with, their engagement rate etc. It's gold because I can basically map out any business's network on Instagram. That's powerful.
+              </div>
+              <strong>~ Jonathan Zhao, founder of <a href="https://www.luxywhitening.com" target="_blank">LuxyWhitening</a></strong>
+              <br>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="landing-testimonials-slider-next" class="swiper-button-next custom-icon">
+          <i class="lnr lnr-chevron-right text-lighter"></i>
+        </div>
+        <div id="landing-testimonials-slider-prev" class="swiper-button-prev custom-icon">
+          <i class="lnr lnr-chevron-left text-lighter"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- / Block -->
+
+  
+  <div id="pricing" class="landing-block container px-3">
+    <h1 class="display-4 font-secondary text-center font-weight-semibold">
+      PAY ONLY FOR WHAT YOU NEED
+    </h1>
+
+    <hr class="landing-separator border-primary my-5 mx-auto">
+
+    <div class="row no-gutters row-bordered text-center pt-4">
+
+      <div class="d-flex col-md flex-column py-4">
+        <h4 class="m-0">Spyfluence</h4>
+        <div class="flex-grow-1">
+          <div class="py-4 my-2">
+            <span class="d-inline-block text-muted text-big align-middle mr-2">$</span>
+            <span class="display-3 d-inline-block font-weight-bold align-middle">0.10</span>
+            <span class="d-inline-block text-muted text-big align-middle ml-2">/ 100 profiles</span>
+          </div>
+          <div class="pb-5">
+            <ul>
+              <li class="plus">Flexible: Flat $9 base fee per report plus an additional 0.1 cent per profile</li>
+              <li class="plus">No need to connect your personal Instagram account</li>
+              <li class="plus">Audience limit of < 250,000 followers/following</li>
+              <li class="plus">Get up to 20,000+ results/day</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex col-md flex-column py-4">
+        <h4 class="m-0">Leading Competitors</h4>
+        <div class="flex-grow-1">
+          <div class="py-4 my-2">
+            <span class="d-inline-block text-muted text-big align-middle mr-2">$</span>
+            <span class="display-3 d-inline-block font-weight-bold align-middle">1.00</span>
+            <span class="d-inline-block text-muted text-big align-middle ml-2">/ 100 profiles</span>
+          </div>
+          <div class="pb-5">
+            <ul>
+              <li class="minus">Unflexible: Force a flat fee (i.e. $100 for ANY amount of results < 10,000)</li>
+              <li class="minus">Must connect your personal Instagram account</li>
+              <li class="minus">Audience limit of < 100,000 followers/following</li>
+              <li class="minus">Limited to < 10,000 results/day</li>
+            </ul>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Block -->
+
+  <!-- Use case badges Block
+  <div class="bg-white">
+    <div class="container px-3">
+      <div class="position-relative px-5">
+        <div class="swiper-container w-auto mx-3" id="landing-logos-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-1.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-2.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-3.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-4.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-5.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-6.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-7.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-8.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-9.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-10.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag "uikit/logo-11.png", class: "img-fluid hoverable ui-img-grayscale" %>
+            </div>
+          </div>
+        </div>
+        <div id="landing-logos-slider-next" class="swiper-button-next custom-icon">
+          <i class="lnr lnr-chevron-right text-lighter text-tiny"></i>
+        </div>
+        <div id="landing-logos-slider-prev" class="swiper-button-prev custom-icon">
+          <i class="lnr lnr-chevron-left text-lighter text-tiny"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  /Block -->
+
+  <!-- Libs -->
+  <%= javascript_include_tag 'swiper/swiper.js' %>
+  <%= javascript_include_tag 'plyr/plyr.js' %>
+
+  <!-- Page -->
+  <%= javascript_include_tag 'pages/landing.js' %>
+</body>
+</html> 

@@ -1,0 +1,361 @@
+/* line 5, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors,
+.minicolors-input {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 12, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors {
+  position: relative;
+}
+
+/* line 16, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-sprite {
+  background-image: url("/assets/minicolors/jquery.minicolors-a70bb7e086d845e9fa52b74ad102c26e1c879d425c997eda656039ca4a95496c.png");
+}
+
+/* line 20, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-swatch {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #ccc;
+  background-position: -80px 0;
+  vertical-align: middle;
+  cursor: text;
+}
+
+/* line 31, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-swatch-color {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 40, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors input[type=hidden] + .minicolors-swatch {
+  position: static;
+  width: 28px;
+  cursor: pointer;
+}
+/* line 46, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors input[type=hidden][disabled] + .minicolors-swatch {
+  cursor: default;
+}
+
+/* line 53, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel {
+  position: absolute;
+  z-index: 99999;
+  display: none;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 0.25rem;
+  width: 173px;
+  border: solid 1px #ccc;
+  background: white;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+/* line 64, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel.minicolors-visible {
+  display: block;
+}
+/* line 70, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel .minicolors-position-top {
+  top: -154px;
+  -webkit-transform: translate(0, -0.625rem);
+          transform: translate(0, -0.625rem);
+}
+/* line 75, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel .minicolors-position-right {
+  right: 0;
+}
+/* line 79, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel .minicolors-position-bottom {
+  top: auto;
+}
+/* line 83, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel .minicolors-position-left {
+  left: 0;
+}
+/* line 87, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-panel .minicolors-with-opacity {
+  width: 194px;
+}
+
+/* line 93, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors .minicolors-grid {
+  position: relative;
+  margin-bottom: 2px;
+  width: 150px;
+  height: 150px;
+  background-position: -120px 0;
+  cursor: crosshair;
+}
+/* line 102, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors .minicolors-grid-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+}
+
+/* line 112, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-saturation .minicolors-grid {
+  background-position: -420px 0;
+}
+/* line 116, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-saturation .minicolors-grid-inner {
+  background-image: inherit;
+  background-position: -270px 0;
+}
+
+/* line 123, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-brightness .minicolors-grid {
+  background-position: -570px 0;
+}
+/* line 127, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-brightness .minicolors-grid-inner {
+  background-color: black;
+}
+
+/* line 132, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-wheel .minicolors-grid {
+  background-position: -720px 0;
+}
+
+/* line 136, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider, .minicolors-opacity-slider {
+  position: absolute;
+  left: 152px;
+  width: 20px;
+  height: 150px;
+  background-color: white;
+  background-position: 0 0;
+  cursor: row-resize;
+  -webkit-transform: translate(0.25rem, 0);
+          transform: translate(0.25rem, 0);
+}
+/* line 147, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-slider,
+[dir=rtl] .minicolors-opacity-slider {
+  right: 152px;
+  left: auto;
+  -webkit-transform: translate(-0.25rem, 0);
+          transform: translate(-0.25rem, 0);
+}
+
+/* line 154, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-saturation .minicolors-slider {
+  background-position: -60px 0;
+}
+
+/* line 158, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-slider-brightness .minicolors-slider,
+.minicolors-slider-wheel .minicolors-slider {
+  background-position: -20px 0;
+}
+
+/* line 163, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-opacity-slider {
+  left: 173px;
+  display: none;
+  background-position: -40px 0;
+}
+/* line 168, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-opacity-slider {
+  right: 173px;
+  left: auto;
+}
+
+/* line 174, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-with-opacity .minicolors-opacity-slider {
+  display: block;
+}
+
+/* line 180, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-grid .minicolors-picker {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  margin-top: -6px;
+  margin-left: -6px;
+  width: 12px;
+  height: 12px;
+  border: solid 1px black;
+  border-radius: 10px;
+  background: none;
+}
+/* line 192, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-grid .minicolors-picker > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 8px;
+  height: 8px;
+  border: solid 2px white;
+  border-radius: 8px;
+}
+
+/* line 204, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-picker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-top: -2px;
+  width: 18px;
+  height: 2px;
+  border: solid 1px black;
+  background: white;
+}
+
+/* line 218, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-swatches {
+  overflow: hidden;
+  margin: 5px 0 3px 5px;
+  padding: 0;
+  list-style: none;
+}
+/* line 224, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-swatches {
+  margin: 5px 5px 3px 0;
+}
+/* line 228, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-swatches li {
+  overflow: hidden;
+  margin: 5px 0 3px 5px;
+  padding: 0;
+  list-style: none;
+}
+/* line 234, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-swatches li {
+  margin: 5px 5px 3px 0;
+}
+
+/* line 240, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-swatches .minicolors-swatch {
+  position: relative;
+  float: left;
+  margin: 0 4px 0 0;
+  cursor: pointer;
+}
+/* line 246, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-swatches .minicolors-swatch {
+  float: right;
+  margin: 0 0 0 4px;
+}
+
+/* line 252, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-with-opacity .minicolors-swatches .minicolors-swatch {
+  margin-right: 7px;
+}
+/* line 255, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-with-opacity .minicolors-swatches .minicolors-swatch {
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+/* line 261, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-swatch.selected {
+  border-color: #000;
+}
+
+/* line 267, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-inline {
+  display: inline-block;
+}
+/* line 270, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-inline .minicolors-input {
+  display: none !important;
+}
+/* line 274, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.minicolors-inline .minicolors-panel {
+  position: relative;
+  top: auto;
+  left: auto;
+  z-index: auto;
+  display: inline-block;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/* line 282, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+[dir=rtl] .minicolors-inline .minicolors-panel {
+  right: auto;
+}
+
+/* line 294, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.default-style .minicolors-panel {
+  z-index: 1000;
+  margin: .125rem 0;
+  border: 1px solid rgba(24, 28, 33, 0.05);
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.09);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.09);
+  border-radius: 0.25rem;
+}
+/* line 304, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.default-style .minicolors-swatch {
+  top: 0.625rem;
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 0;
+}
+/* line 312, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.default-style .minicolors-position-right .minicolors-swatch {
+  right: 0.625rem;
+  left: auto;
+}
+/* line 317, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.default-style .minicolors-input {
+  padding-left: 2.375rem;
+}
+/* line 321, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.default-style .minicolors-position-right .minicolors-input {
+  padding-right: 2.375rem;
+  padding-left: 0.875rem;
+}
+
+/* line 333, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.material-style .minicolors-panel {
+  z-index: 1000;
+  margin: .125rem 0;
+  border: 0px solid rgba(24, 28, 33, 0.15);
+  background-clip: padding-box;
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 10px 0px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.07), 0px 4px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 10px 0px rgba(0, 0, 0, 0.03);
+  border-radius: 0.125rem;
+}
+/* line 343, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.material-style .minicolors-swatch {
+  top: 0.53125rem;
+  left: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 0;
+}
+/* line 351, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.material-style .minicolors-position-right .minicolors-swatch {
+  right: 0;
+  left: auto;
+}
+/* line 356, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.material-style .minicolors-input {
+  padding-left: 1.65625rem !important;
+}
+/* line 360, C:/Users/Steven/Desktop/spyfluence-server-v1/vendor/assets/libs/minicolors/minicolors.scss.erb */
+.material-style .minicolors-position-right .minicolors-input {
+  padding-right: 1.65625rem !important;
+  padding-left: 0 !important;
+}

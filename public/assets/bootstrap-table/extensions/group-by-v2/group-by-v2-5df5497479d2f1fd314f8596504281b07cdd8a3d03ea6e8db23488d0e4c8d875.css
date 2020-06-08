@@ -1,0 +1,9 @@
+/* line 1, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.css */
+.bootstrap-table .table > tbody > tr.groupBy {
+  cursor: pointer;
+}
+
+/* line 9, C:/Users/Steven/Desktop/spyfluence-server-v1/node_modules/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.css */
+.bootstrap-table .table > tbody > tr.hidden + tr.detail-view {
+  display: none;
+}

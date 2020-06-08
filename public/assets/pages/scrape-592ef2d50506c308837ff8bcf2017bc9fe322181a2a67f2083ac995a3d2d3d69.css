@@ -1,0 +1,12 @@
+/* line 1, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/scrape.scss */
+.form-control-borderless {
+  border: none;
+}
+
+/* line 5, C:/Users/Steven/Desktop/spyfluence/vendor/assets/stylesheets/pages/scrape.scss */
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}

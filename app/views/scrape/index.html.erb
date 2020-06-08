@@ -1,0 +1,65 @@
+<% content_for :scripts do %>
+<%= javascript_include_tag 'pages_vacancies.js' %>
+<%= javascript_include_tag 'pages_scrape.js' %>
+<%= stylesheet_link_tag 'pages/scrape.css', media: 'all' %>
+<% end %>
+
+<!--
+=================================================================
+**************************** CONTENT ****************************
+-->
+
+<div id="page-body" class="container px-0">
+  <h1 class="text-center font-weight-bolder pt-5" style="margin: auto; width: 60%;">
+    Tap into the powerful networks built by Instagram influencers and businesses
+  </h1>
+
+  <div class="container">
+    <br/>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+            <div id="invalid-link" class="alert alert-danger fade hide" role="alert">
+            </div>
+            <form class="card card-sm">
+                <div class="card-body row no-gutters align-items-center">
+                    <div class="col-auto">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <!--end of col-->
+                    <div class="col">
+                        <input id="competitor" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Enter Instagram Profile Link">
+                    </div>
+                </div>
+            </form>
+
+            <br/>
+            <div class="input-group-prepend" style="height:30%;">
+                <button id="followers" style="width:48%" type="button" class="btn btn-primary">Get Followers Report</button>
+                <button id="following" style="width:48%; margin-left:4%" type="button" class="btn btn-primary">Get Following Report</button>
+            </div>
+        </div>
+        <!--end of col-->
+    </div>
+    <br/>
+
+    <p class="caption" style="text-align:center; margin-top:2%;">Discover high quality leads to help grow your business</p>
+
+    <div class="card mt-5">
+        <div class="p-4 p-md-5">
+        <div class="text-dark text-large font-weight-semibold">What's in a report?</div>
+        <div class="mt-3 mb-4">
+            <p>Spy on Instagram profiles and capture <b>ALL</b> the infomation about their followers or followings, including contact information, audience engagement, profile analytics, and much more.</p>
+            <p>Receieve your reports in both CSV format <b>AND</b> graphical lists (managed under My Campaigns).</p>
+        </div>
+        <div>
+            <a class="btn btn-primary btn-round" target="_blank" href="/demo">View Sample Report</a>
+        </div>
+        </div>
+        <hr class="border-light m-0">
+    </div>
+    </div>
+
+    <div id="checkout_container_1"></div>
+</div>
+
+<%= javascript_include_tag 'pages/charges.js' %> 

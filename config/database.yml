@@ -1,0 +1,23 @@
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: <%= ENV['HEROKU_DB_DATABASE'] %>
+  host: <%= ENV['HEROKU_DB_HOST'] %>
+  username: <%= ENV['HEROKU_DB_USER'] %>
+  password: <%= ENV['HEROKU_DB_PASSWORD'] %>
+  port: <%= ENV['HEROKU_DB_PORT'] %>
+  pool: <%= ENV['RAILS_MAX_THREADS'] %>
+  timeout: 5000
+
+development: &development
+  adapter: postgresql
+  encoding: unicode
+  database: test_spyfluence
+  host: localhost
+  username: postgres
+  password: postgres
+  pool: 5
+  timeout: 5000
+
+test:
+  *development

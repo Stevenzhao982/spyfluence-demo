@@ -1,0 +1,15 @@
+<tr>
+    <td>
+        <a href="<%= profile.instagram_link %>" target="_blank">
+            <img src="<%= profile.profile_picture %>" style="width:60px; height:60px">
+        </a>
+    </td>
+    <td><%= profile.account %></td>
+    <td><%= profile.followers %></td>
+    <td><%= profile.following %></td>
+    <td><%= profile.followers_to_following %></td>
+    <td><%= profile.recent_average_post_likes %></td>
+    <td><%= profile.recent_average_post_comments %></td>
+    <td><%= profile.engagement_rate %></td>
+    <td><%= link_to 'View', profile_path(profile_id: profile.id) %></td>
+</tr>

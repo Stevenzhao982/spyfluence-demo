@@ -1,0 +1,1 @@
+$(function(){"rtl"===$("html").attr("dir")&&$(".project-actions .dropdown-menu").removeClass("dropdown-menu-right")});

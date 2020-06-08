@@ -1,0 +1,1 @@
+$(function(){$(".masonry-grid").masonry({itemSelector:".masonry-grid-item",columnWidth:160,originLeft:!("rtl"===$("body").attr("dir")||"rtl"===$("html").attr("dir"))})});
