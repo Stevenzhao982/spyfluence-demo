@@ -28,7 +28,7 @@
     "popper.js": "^1.16.1",
     "select2": "~4.0.6-rc.1",
     "spinkit": "~1.2.5",
-    "swiper": "^4.4.6",
+    "swiper": "^6.5.1",
     "toastr": "~2.1.4",
     "vegas": "~2.4.0"
   }
